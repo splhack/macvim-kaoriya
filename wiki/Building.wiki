@@ -1,4 +1,4 @@
-#summary !MacVim-!KaoriYaのビルド方法
+#summary MacVim-KaoriYaのビルド方法
 
 = Gitリポジトリからビルドする =
 
