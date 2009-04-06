@@ -1,0 +1,25 @@
+#summary !MacVim-!KaoriYaのビルド方法
+
+= Gitリポジトリからビルドする =
+
+http://repo.or.cz/w/MacVim/KaoriYa.git
+
+{{{
+git clone git://repo.or.cz/MacVim/KaoriYa.git
+}}}
+
+http://code.google.com/p/macvim/wiki/Building
+
+
+= !MacPortsでビルドする =
+
+http://lapangan.net/darwinports/index.php?PrivatePortfile%2FMacVim
+
+{{{
+cd editor/macvim
+sudo port install +cscope +gdb +python +ruby
+}}}
+
+{{{
+インストール先 /Applications/MacPorts/MacVim.app
+}}}
