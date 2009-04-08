@@ -16,7 +16,9 @@
 
 == 外部エディタで編集 ==
 
-環境設定… の 連携 で「インストール」を押すと、/Library/!InputManagersに外部エディタを呼び出すためのバンドルがインストールされます。SafariでGMailのメール作成時に「編集(またはEdit」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariに反映される仕組みです。Mail.appなどでも使用できます。
+環境設定… の 連携 で「インストール」を押すと、/Library/!InputManagersに外部エディタを呼び出すためのバンドルがインストールされます(SIMBLなどと同じです)。
+
+SafariでGMailのメール作成時に「編集(またはEdit」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariに反映される仕組みです。Mail.appなどでも使用できます。
 
 
 == 環境変数 ==
