@@ -10,12 +10,12 @@
 
 == 外部エディタで編集 ==
 
-環境設定… の 連携 で「インストール」を押すと、/Library/InputManagersに外部エディタを呼び出すためのバンドルがインストールされます。SafariでGMailのメール作成時に「編集(またはEdit」メニューの「Edit in MacVim…」を選択すれば、MacVimで編集できます。保存して終了すれば、Safariに反映される仕組みです。Mail.appなどでも使用できます。
+環境設定… の 連携 で「インストール」を押すと、/Library/!InputManagersに外部エディタを呼び出すためのバンドルがインストールされます。SafariでGMailのメール作成時に「編集(またはEdit」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariに反映される仕組みです。Mail.appなどでも使用できます。
 
 
 == 環境変数 ==
 
-MacVim.app/Contents/Info.plist にて設定されています。
+!MacVim.app/Contents/Info.plist にて設定されています。
 
 {{{
 <key>LSEnvironment</key>
@@ -25,13 +25,14 @@ MacVim.app/Contents/Info.plist にて設定されています。
 </dict>
 }}}
 
+
 == vimrc/gvimrc ==
 
 現状では、
 
-  # MacVim.app/Contents/Resources/vim/vimrc
+  # !MacVim.app/Contents/Resources/vim/vimrc
   # ホームフォルダ/.vimrc または _vimrc
-  # MacVim.app/Contents/Resources/vim/gvimrc
+  # !MacVim.app/Contents/Resources/vim/gvimrc
   # ホームフォルダ/.gvimrc または _gvimrc
 
 の順番で読み込まれます。読み込まれたスクリプトは
@@ -43,7 +44,11 @@ MacVim.app/Contents/Info.plist にて設定されています。
 
 == コンソールからの使用 ==
 
-Terminal.appやiTerm.appから使用する場合は、たとえばzshのエイリアスでは、
+Terminal.appやiTerm.appから使用する場合は、
+
+ [http://repo.or.cz/w/MacVim/KaoriYa.git?a=blob;f=src/MacVim/mvim;hb=HEAD mvimシェルスクリプト]
+
+などが便利です。もしくは、たとえばzshのエイリアスでも、
 
 {{{
 alias vi='/Applications/MacVim.app/Contents/MacOS/Vim "$@"'
