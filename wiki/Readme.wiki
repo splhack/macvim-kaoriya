@@ -1,5 +1,46 @@
 #summary はじめにお読みください
 
-= MacVim 香り屋版パッチ =
+= MacVim-KaoriYa =
 
-(作成中)
+== インストール先 ==
+
+アプリケーションフォルダ以外の場所に置いても動作するようになっています。
+
+
+== 環境変数 ==
+
+MacVim.app/Contents/Info.plist にて設定されています。
+
+    <key>LSEnvironment</key>
+    <dict>
+        <key>LANG</key>
+        <string>ja_JP.UTF-8</string>
+    </dict>
+
+== vimrc/gvimrc ==
+
+現状では、
+
+  # MacVim.app/Contents/Resources/vim/vimrc
+  # ホームフォルダ/.vimrc または _vimrc
+  # MacVim.app/Contents/Resources/vim/gvimrc
+  # ホームフォルダ/.gvimrc または _gvimrc
+
+の順番で読み込まれます。読み込まれたスクリプトは
+
+ [http://www.ac.cyberhome.ne.jp/~yakahaira/vimdoc/repeat.html#:scriptnames :scriptnames]
+
+にて確認できます。
+
+
+== コンソールからの使用 ==
+
+Terminal.appやiTerm.appから使用する場合は、たとえばzshのエイリアスでは、
+
+ alias vi='/Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+
+などとすると vi ファイル名 で使用できます。デフォルトのvimrcを読み込ませたくない場合は、
+
+ alias vi='/Applications/MacVim.app/Contents/MacOS/Vim -u $HOME/.vimrc "$@"'
+
+とすると良いでしょう。
