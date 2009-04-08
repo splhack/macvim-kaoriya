@@ -10,7 +10,7 @@
 == アンインストール ==
 
   * アプリケーションフォルダのMacVimアイコン
-  * ホームフォルダ/ライブラリ/Preferences/org.vim.MacVim.KaoriYa.plist
+  * ホームフォルダ/ライブラリ/!Preferences/org.vim.!MacVim.!KaoriYa.plist
 を削除します。
 
 
