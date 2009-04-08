@@ -1,21 +1,29 @@
 #summary はじめにお読みください
+#labels Featured
 
-= MacVim-KaoriYa =
+= !MacVim-!KaoriYa =
 
 == インストール先 ==
 
 アプリケーションフォルダ以外の場所に置いても動作するようになっています。
 
 
+== 外部エディタで編集 ==
+
+環境設定… の 連携 で「インストール」を押すと、/Library/InputManagersに外部エディタを呼び出すためのバンドルがインストールされます。SafariでGMailのメール作成時に「編集(またはEdit」メニューの「Edit in MacVim…」を選択すれば、MacVimで編集できます。保存して終了すれば、Safariに反映される仕組みです。Mail.appなどでも使用できます。
+
+
 == 環境変数 ==
 
 MacVim.app/Contents/Info.plist にて設定されています。
 
-    <key>LSEnvironment</key>
-    <dict>
-        <key>LANG</key>
-        <string>ja_JP.UTF-8</string>
-    </dict>
+{{{
+<key>LSEnvironment</key>
+<dict>
+  <key>LANG</key>
+  <string>ja_JP.UTF-8</string>
+</dict>
+}}}
 
 == vimrc/gvimrc ==
 
@@ -37,10 +45,14 @@ MacVim.app/Contents/Info.plist にて設定されています。
 
 Terminal.appやiTerm.appから使用する場合は、たとえばzshのエイリアスでは、
 
- alias vi='/Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+{{{
+alias vi='/Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+}}}
 
 などとすると vi ファイル名 で使用できます。デフォルトのvimrcを読み込ませたくない場合は、
 
- alias vi='/Applications/MacVim.app/Contents/MacOS/Vim -u $HOME/.vimrc "$@"'
+{{{
+alias vi='/Applications/MacVim.app/Contents/MacOS/Vim -u $HOME/.vimrc "$@"'
+}}}
 
 とすると良いでしょう。
