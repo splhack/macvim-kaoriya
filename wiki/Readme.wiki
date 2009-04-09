@@ -101,3 +101,12 @@ alias gvim='env LANG=ja_JP.UTF-8 open -a /Applications/MacVim.app "$@"'
 }}}
 
 としておけば、gvim ファイル名 で!MacVim.appで編集できます。
+
+
+== 香り屋版の情報 ==
+
+Scratchバッファプラグインの動作がおかしい場合、ホームフォルダ/.vimrcまたは_vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 リンク])
+
+{{{
+let plugin_cmdex_disable = 1
+}}}
