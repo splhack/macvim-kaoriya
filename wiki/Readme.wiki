@@ -83,13 +83,21 @@ Terminal.appやiTerm.appから使用する場合は、
 などが便利です。もしくは、たとえばzshのエイリアスでも、
 
 {{{
-alias vi='/Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
 }}}
 
 などとすると vi ファイル名 で使用できます。デフォルトのvimrcを読み込ませたくない場合は、
 
 {{{
-alias vi='/Applications/MacVim.app/Contents/MacOS/Vim -u $HOME/.vimrc "$@"'
+alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim -u $HOME/.vimrc "$@"'
 }}}
 
 とすると良いでしょう。
+
+コンソールから!MacVim.appを使用する場合は、
+
+{{{
+alias gvim='env LANG=ja_JP.UTF-8 open -a /Applications/MacVim.app "$@"'
+}}}
+
+としておけば、gvim ファイル名 で!MacVim.appで編集できます。
