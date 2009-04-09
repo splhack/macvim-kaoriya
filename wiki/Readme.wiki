@@ -63,9 +63,9 @@ SafariでGMailのメール作成時に「編集(またはEdit)」メニューの
 現状では、
 
   # !MacVim.app/Contents/Resources/vim/vimrc
-  # ホームフォルダ/.vimrc または _vimrc
+  # ホームフォルダ/.vimrc または `_`vimrc
   # !MacVim.app/Contents/Resources/vim/gvimrc
-  # ホームフォルダ/.gvimrc または _gvimrc
+  # ホームフォルダ/.gvimrc または `_`gvimrc
 
 の順番で読み込まれます。読み込まれたスクリプトは
 
@@ -105,7 +105,7 @@ alias gvim='env LANG=ja_JP.UTF-8 open -a /Applications/MacVim.app "$@"'
 
 == 香り屋版の情報 ==
 
-Scratchバッファプラグインの動作がおかしい場合、ホームフォルダ/.vimrcまたは_vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 リンク])
+Scratchバッファプラグインの動作がおかしい場合、ホームフォルダ/.vimrcまたは `_`vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 リンク])
 
 {{{
 let plugin_cmdex_disable = 1
