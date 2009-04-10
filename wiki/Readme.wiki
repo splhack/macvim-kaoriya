@@ -45,17 +45,9 @@ set transparency=10    (不透明 0〜100 透明)
 SafariでGMailのメール作成時に「編集(またはEdit)」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariなどに反映される仕組みです。Mail.appなどでも使用できます。
 
 
-== 環境変数 ==
+== 言語環境 ==
 
-!MacVim.app/Contents/Info.plist にて設定されています。
-
-{{{
-<key>LSEnvironment</key>
-<dict>
-  <key>LANG</key>
-  <string>ja_JP.UTF-8</string>
-</dict>
-}}}
+FinderからMacVimアイコンの「情報を見る」「言語」で日本語のチェックを外すと、英語環境で起動します。
 
 
 == vimrc/gvimrc ==
