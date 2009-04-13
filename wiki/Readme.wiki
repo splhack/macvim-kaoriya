@@ -42,7 +42,7 @@ set transparency=10    (不透明 0〜100 透明)
 
 「環境設定…」の「連携」で「インストール」を押すと、/Library/!InputManagersに外部エディタを呼び出すためのバンドルがインストールされます(SIMBLなどと同じです)。
 
-SafariでGMailのメール作成時に「編集(またはEdit)」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariなどに反映される仕組みです。Mail.appなどでも使用できます。
+たとえばSafariでGMailのメール作成時に「編集(またはEdit)」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariなどに反映される仕組みです。Mail.appなどでも使用できます。
 
 
 == 言語環境 ==
@@ -101,4 +101,13 @@ Scratchバッファプラグインの動作がおかしい場合、ホームフ�
 
 {{{
 let plugin_cmdex_disable = 1
+}}}
+
+
+== 文字幅 ==
+
+全角記号の幅がおかしいのは以下の設定でなおります(次のリリースからデフォルトで設定されます)。
+
+{{{
+set ambiwidth=double
 }}}
