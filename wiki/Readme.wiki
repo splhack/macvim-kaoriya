@@ -52,8 +52,6 @@ Finderから!MacVimアイコンの「情報を見る」「言語」で日本語�
 
 == vimrc/gvimrc ==
 
-現状では、
-
   # !MacVim.app/Contents/Resources/vim/vimrc
   # ホームフォルダ/.vimrc または `_`vimrc
   # !MacVim.app/Contents/Resources/vim/gvimrc
@@ -97,7 +95,7 @@ alias gvim='env LANG=ja_JP.UTF-8 open -a /Applications/MacVim.app "$@"'
 
 == 香り屋版の情報 ==
 
-Scratchバッファプラグインの動作がおかしい場合、ホームフォルダ/.vimrcまたは `_`vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 リンク])
+Scratchバッファプラグインの動作がおかしいなどの場合は、ホームフォルダ/.vimrcまたは `_`vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 リンク])
 
 {{{
 let plugin_cmdex_disable = 1
@@ -111,3 +109,23 @@ let plugin_cmdex_disable = 1
 {{{
 set ambiwidth=double
 }}}
+
+
+== 自動IMオフ無効化 ==
+
+入力モードから抜ける時などに、自動的に日本語入力(IM)をオフにする機能が入っています。以下の設定でその機能を無効にすることができます。
+
+{{{
+set imdisable
+}}}
+
+なお、現バージョンでは、iminsert/imsearchなどの自動IMオン機能や、IMオン時のカーソル色変更などの機能は実装されていません。
+
+
+== +perl / +python ==
+
+配布しているバイナリは、10.4 universal 用のbuildが通らない(link時にエラーとなる)ため、残念ながら -perl / -python となっています。
+
+[Building ビルド方法のページ] にてビルドすることが可能です。
+
+10.5 universalでのバイナリ配布に切り替えることを検討中です。
