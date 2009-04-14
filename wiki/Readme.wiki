@@ -17,6 +17,34 @@
 を削除します。
 
 
+== vimrc/gvimrc ==
+
+  # !MacVim.app/Contents/Resources/vim/vimrc
+  # ホームフォルダ/.vimrc または `_`vimrc
+  # !MacVim.app/Contents/Resources/vim/gvimrc
+  # ホームフォルダ/.gvimrc または `_`gvimrc
+
+の順番で読み込まれます。読み込まれたスクリプトは
+
+ [http://www.ac.cyberhome.ne.jp/~yakahaira/vimdoc/repeat.html#:scriptnames :scriptnames]
+
+にて確認できます。
+
+!MacVim(含!MacVim-!KaoriYa)かどうかを判別するには
+
+{{{
+has('gui_macvim')
+}}}
+
+を使用します。
+
+{{{
+has('gui_running')
+}}}
+
+で、GUI動作中(!MacVim.app実行中)かどうか判別できます。
+
+
 == ツールバー ==
 
 ツールバーを非表示にしたい場合は
@@ -44,24 +72,14 @@ set transparency=10    (不透明 0〜100 透明)
 
 たとえばSafariでGMailのメール作成時に「編集(またはEdit)」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariなどに反映される仕組みです。Mail.appなどでも使用できます。
 
+デフォルトのキーバインドは「シフト＋コントロール＋コマンド＋E」です。
+
+Mail.appでは、「コントロール+A」で全選択したのち「シフト＋コントロール＋コマンド＋E」を押せば、!MacVimでメールを編集できます。
+
 
 == 言語環境 ==
 
 Finderから!MacVimアイコンの「情報を見る」「言語」で日本語のチェックを外すと、英語環境で起動します。
-
-
-== vimrc/gvimrc ==
-
-  # !MacVim.app/Contents/Resources/vim/vimrc
-  # ホームフォルダ/.vimrc または `_`vimrc
-  # !MacVim.app/Contents/Resources/vim/gvimrc
-  # ホームフォルダ/.gvimrc または `_`gvimrc
-
-の順番で読み込まれます。読み込まれたスクリプトは
-
- [http://www.ac.cyberhome.ne.jp/~yakahaira/vimdoc/repeat.html#:scriptnames :scriptnames]
-
-にて確認できます。
 
 
 == コンソールからの使用 ==
@@ -102,15 +120,6 @@ let plugin_cmdex_disable = 1
 }}}
 
 
-== 文字幅 ==
-
-全角記号の幅がおかしいのは以下の設定でなおります(次のリリースからデフォルトで設定されます)。
-
-{{{
-set ambiwidth=double
-}}}
-
-
 == 自動IMオフ無効化 ==
 
 入力モードから抜ける時などに、自動的に日本語入力(IM)をオフにする機能が入っています。以下の設定でその機能を無効にすることができます。
@@ -122,6 +131,11 @@ set imdisable
 なお、現バージョンでは、iminsert/imsearchなどの自動IMオン機能や、IMオン時のカーソル色変更などの機能は実装されていません。
 
 
+== autocomplpop.vim で自動的にIMがオフになる ==
+
+http://blogger.splhack.org/2009/04/macvim-kaoriya-autocomplpopvim.html
+
+
 == +perl / +python ==
 
 配布しているバイナリは、10.4 universal 用のbuildが通らない(link時にエラーとなる)ため、残念ながら -perl / -python となっています。
@@ -129,11 +143,6 @@ set imdisable
 [Building ビルド方法のページ] にてビルドすることが可能です。
 
 10.5 universalでのバイナリ配布に切り替えることを検討中です。
-
-
-== autocomplpop.vim で自動的にIMがオフになる ==
-
-http://blogger.splhack.org/2009/04/macvim-kaoriya-autocomplpopvim.html
 
 
 == ATSUI ==
