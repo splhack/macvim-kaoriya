@@ -134,3 +134,19 @@ set imdisable
 == autocomplpop.vim で自動的にIMがオフになる ==
 
 http://blogger.splhack.org/2009/04/macvim-kaoriya-autocomplpopvim.html
+
+
+== ATSUI ==
+
+メニューバーの「MacVim」「環境設定…」より「詳細」タブにて
+
+{{{
+ATSUIレンダラを使用する
+}}}
+
+チェックボックスをONにすると、ATSUIレンダラにより、標準状態より高速に動作します。
+
+ !AppleType Services for Unicode Imaging
+ http://developer.apple.com/documentation/Carbon/Conceptual/ATSUI_Concepts/atsui_chap1/atsui_intro.html
+
+IM入力中など多少表示が気になるところもありますが、ほぼ問題なく使用できます。
