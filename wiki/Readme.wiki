@@ -129,3 +129,8 @@ set imdisable
 [Building ビルド方法のページ] にてビルドすることが可能です。
 
 10.5 universalでのバイナリ配布に切り替えることを検討中です。
+
+
+== autocomplpop.vim で自動的にIMがオフになる ==
+
+http://blogger.splhack.org/2009/04/macvim-kaoriya-autocomplpopvim.html
