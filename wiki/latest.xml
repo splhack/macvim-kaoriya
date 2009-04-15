@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"> 
+  <channel>
+    <title>MacVim KaoriYa</title>
+	<link>http://macvim-kaoriya.googlecode.com/files/latest.xml</link>
+    <description>Most recent changes with links to updates.</description>
+
+    <!--
+    To add a new release:
+
+    * add a new <item> below (copy an old one)
+    * Adapt the <title>
+    * Adapt the <description>
+    * Adapt the <pubDate> (format 'Day, dd Mon yyyy hh:mm CET')
+    * Adapte <enclosure>, make sure to update the url, length, saprkle:version
+      and sparkle:shortVersionString attributes.
+
+    Sparkle honors the following user defaults:
+
+    * SUFeedURL overrides the value in Info.plist (if we want to offer several
+      appcasts in the preferences one day ("latest", "stable" for example).
+
+      This means that for testing you can do
+
+          defaults read org.vim.MacVim SUFeedURL  # note this down
+          defaults write org.vim.MacVim SUFeedURL file:///Users/you/testcast.xml
+            # !!! note the three '/' after 'file:
+          # test test test
+          defaults write org.vim.MacVim SUFeedURL previousvalue
+          # or, to use some default setting for the url,
+          defaults delete org.vim.MacVim SUFeedURL
+
+    Sparkle usually assumes a naming scheme of name_versionnumber.tar.bz2 .
+    Instead, you can also provide a sparkle:version="2.0_rc2" attribute on
+    the enclosure and name the package as you like. You can (and should) also
+    provide a sparkle:shortVersionString="User-facing version string"
+    attribute that corresponds to CFBundleShortVersionString. Sparkle uses
+    CFBundleVersion to determine the current application version.
+
+    Sparkle supports updates in zip, tar, tbz, tgz, or dmg format.
+    -->
+
+    <item>
+      <title>macvim-kaoriya-20090414 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090414 released</h1>
+<ul>
+	<li>MacVim snapshot-45
+<p> Changes since snapshot 44:
+  <ul>
+    <li> The toolbar is not hidden by default again (if you prefer having the toolbar hidden, then add the line "set go-=T" to your ~/.gvimrc file) </li>
+    <li> The ATSUI renderer honors the 'guisp' highlighting color </li>
+    <li> Fix the forever bouncing Dock icon bug (Kazuki Sakamoto) </li>
+    <li> Add the "Show Hidden Files" checkbox button to the Save dialog whenever the file browser is expanded </li>
+    <li> Frontend refactoring </li>
+  </ul>
+</p>
+	<li>全角記号幅用にデフォルトで set ambiwidth=double を設定
+</ul>
+      ]]></description>
+      <pubDate>Tue, 14 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090414.dmg"
+        length="38161075"
+        sparkle:version="20090414"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090410 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090410 released</h1>
+<ul>
+	<li>gettextによる日本語化を修正。
+	<li>IM自動ON機能のみ無効化(ESC押下時のIM自動OFFは有効)。
+	<li>言語環境に従うように変更。
+</ul>
+      ]]></description>
+      <pubDate>Fri, 10 Apr 2009 23:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090410.dmg"
+        length="38160662"
+        sparkle:version="20090410"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090408 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090408 released</h1>
+      ]]></description>
+      <pubDate>Wed, 08 Apr 2009 21:20:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090408.dmg"
+        length="38123890"
+        sparkle:version="20090408"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090406 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090406 released</h1>
+      ]]></description>
+      <pubDate>Mon, 06 Apr 2009 21:21:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090406.dmg"
+        length="38122873"
+        sparkle:version="20090406"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+  </channel>
+</rss>
