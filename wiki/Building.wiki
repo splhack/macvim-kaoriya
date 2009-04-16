@@ -13,11 +13,13 @@ http://code.google.com/p/macvim/wiki/Building
 
 = !MacPortsでビルドする =
 
-http://lapangan.net/darwinports/index.php?PrivatePortfile%2FMacVim
+http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=editors/macvim;hb=HEAD
+
+snapshot リンクからダウンロード
 
 {{{
-cd editor/macvim
-sudo port install +cscope +gdb +python +ruby
+cd macvim
+sudo port install +cscope +gdb +perl +python +ruby
 }}}
 
 {{{
