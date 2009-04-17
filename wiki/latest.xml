@@ -41,6 +41,42 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090417 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090417 released</h1>
+<ul>
+	<li>migemo, iconvが使用できない不具合を修正
+</ul>
+      ]]></description>
+      <pubDate>Fri, 17 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090417.dmg"
+        length="38283482"
+        sparkle:version="20090417"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090416 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090416 released</h1>
+<ul>
+	<li>+perl/+python/+ruby に対応。
+		<a href="http://code.google.com/p/macvim-kaoriya/wiki/Readme"
+		 >ドキュメント http://code.google.com/p/macvim-kaoriya/wiki/Readme</a>
+</ul>
+      ]]></description>
+      <pubDate>Thu, 16 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090416.dmg"
+        length="38249866"
+        sparkle:version="20090416"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090414 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090414 released</h1>
