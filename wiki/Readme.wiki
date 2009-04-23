@@ -82,6 +82,13 @@ Mail.appでは、「コントロール+A」で全選択したのち「シフト�
 Finderから!MacVimアイコンの「情報を見る」「言語」で日本語のチェックを外すと、英語環境で起動します。
 
 
+== 文字コード判別 ==
+
+[http://yukihiro.nakadaira.googlepages.com/#chardet gauche_guess] により、自動的に文字コードの判別を行います。
+
+fileencodings(fencs) は設定不要です。.vimrcなどでfileencodings(fencs)を設定すると文字コード判別が動作しなくなります。
+
+
 == コンソールからの使用 ==
 
 Terminal.appやiTerm.appから使用する場合は、
