@@ -41,6 +41,25 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090423 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090423 released</h1>
+<ul>
+	<li>文字コード判別を向上。fileencodings(fencs)設定不要です。<br>
+		<a href="http://code.google.com/p/macvim-kaoriya/wiki/Readme"
+		 >ドキュメント http://code.google.com/p/macvim-kaoriya/wiki/Readme</a>
+</ul>
+      ]]></description>
+      <pubDate>Thu, 23 Apr 2009 22:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090423.dmg"
+        length="45242540"
+        sparkle:version="20090423"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090417 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090417 released</h1>
