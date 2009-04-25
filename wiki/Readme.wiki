@@ -127,20 +127,13 @@ let plugin_cmdex_disable = 1
 }}}
 
 
-== 自動IMオフ無効化 ==
+== 自動IMオン/オフ無効化 ==
 
-入力モードから抜ける時などに、自動的に日本語入力(IM)をオフにする機能が入っています。以下の設定でその機能を無効にすることができます。
+入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオン/オフにする機能が入っています(iminsertなどに反映されます)。以下の設定でその機能を無効にすることができます。
 
 {{{
 set imdisable
 }}}
-
-なお、現バージョンでは、iminsert/imsearchなどの自動IMオン機能や、IMオン時のカーソル色変更などの機能は実装されていません。
-
-
-== autocomplpop.vim で自動的にIMがオフになる ==
-
-http://blogger.splhack.org/2009/04/macvim-kaoriya-autocomplpopvim.html
 
 
 == +perl / +python / +ruby ==
@@ -172,3 +165,20 @@ ATSUIレンダラを使用する
  http://developer.apple.com/documentation/Carbon/Conceptual/ATSUI_Concepts/atsui_chap1/atsui_intro.html
 
 IM入力中など多少表示が気になるところもありますが、ほぼ問題なく使用できます。
+
+
+== ctags ==
+
+[http://hp.vector.co.jp/authors/VA025040/ctags/ exuberant ctags 日本語対応版 5.7J1] を同梱しています。
+
+{{{
+!ctags
+}}}
+
+などで使用できます。コマンドラインからは
+
+{{{
+alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
+}}}
+
+などとすると良いでしょう。
