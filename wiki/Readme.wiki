@@ -167,6 +167,13 @@ ATSUIレンダラを使用する
 IM入力中など多少表示が気になるところもありますが、ほぼ問題なく使用できます。
 
 
+== 文字間幅 ==
+
+{{{
+defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
+}}}
+
+
 == ctags ==
 
 [http://hp.vector.co.jp/authors/VA025040/ctags/ exuberant ctags 日本語対応版 5.7J1] を同梱しています。
