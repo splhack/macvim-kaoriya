@@ -41,6 +41,24 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090425 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090425 released</h1>
+<ul>
+	<li>IM 状態取得を実装。IM 自動ON/OFF が動作します。
+	<li>ctags 5.7J1 を同梱
+</ul>
+      ]]></description>
+      <pubDate>Sat, 25 Apr 2009 14:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090425.dmg"
+        length="38515932"
+        sparkle:version="20090425"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090423 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090423 released</h1>
