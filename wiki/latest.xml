@@ -41,6 +41,23 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090426 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090426 released</h1>
+<ul>
+	<li>IM 状態取得方法を改善(一部nmapなどが効かないのが修正)。
+</ul>
+      ]]></description>
+      <pubDate>Sun, 26 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090426.dmg"
+        length="38516256"
+        sparkle:version="20090426"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090425 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090425 released</h1>
