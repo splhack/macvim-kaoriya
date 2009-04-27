@@ -41,6 +41,24 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090427 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090427 released</h1>
+<ul>
+	<li>Vim 7.2.160
+	<li>英語環境起動を改善
+</ul>
+      ]]></description>
+      <pubDate>Mon, 27 Apr 2009 21:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090427.dmg"
+        length="38519630"
+        sparkle:version="20090427"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090426 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090426 released</h1>
