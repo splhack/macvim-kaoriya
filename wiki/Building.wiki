@@ -15,9 +15,17 @@ http://code.google.com/p/macvim/wiki/Building
 
 http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=editors/macvim;hb=HEAD
 
+http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=textproc/cmigemo;hb=HEAD
+
+http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=devel/ctags;hb=HEAD
+
 snapshot リンクからダウンロード
 
 {{{
+cd ctags
+sudo port install
+cd cmigemo
+sudo port install +utf8
 cd macvim
 sudo port install +cscope +gdb +perl +python +ruby
 }}}
