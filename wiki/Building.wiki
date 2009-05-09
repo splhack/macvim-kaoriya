@@ -17,16 +17,16 @@ http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=editors/macvim;hb
 
 http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=textproc/cmigemo;hb=HEAD
 
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=devel/ctags;hb=HEAD
+http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=devel/ctags-objc-ja;hb=HEAD
 
 snapshot リンクからダウンロード
 
 {{{
-cd ctags
+cd ctags-objc-ja
 sudo port install
-cd cmigemo
+cd ..; cd cmigemo
 sudo port install +utf8
-cd macvim
+cd ..; cd macvim
 sudo port install +cscope +gdb +perl +python +ruby
 }}}
 
