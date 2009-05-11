@@ -45,6 +45,13 @@ has('gui_running')
 で、GUI動作中(!MacVim.app実行中)かどうか判別できます。
 
 
+== migemo検索 ==
+
+{{{
+g/ 順方向migemo検索
+g? 逆方向migemo検索
+}}}
+
 == ツールバー ==
 
 ツールバーを非表示にしたい場合は
