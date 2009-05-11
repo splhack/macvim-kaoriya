@@ -188,5 +188,8 @@ defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
 alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
 }}}
 
-などとすると良いでしょう。
+などとすると良いでしょう。以下の設定でObjective-Cに対応できます。
 
+{{{
+let tlist_objc_settings='objc;P:protocols;i:interfaces;I:implementations;M:instance methods;C:implementation methods;Z:protocol methods'
+}}}
