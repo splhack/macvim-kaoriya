@@ -189,3 +189,12 @@ alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
 }}}
 
 などとすると良いでしょう。
+
+
+== helpで固まる ==
+
+$HOME/.vim/doc/tags-js などに `_`TAG_FILE_ENCODING utf-8 行があると固まるようですので、その行を削除してご使用ください。調査中です。
+
+{{{
+!_TAG_FILE_ENCODING utf-8   //
+}}}
