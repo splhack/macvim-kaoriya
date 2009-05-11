@@ -41,6 +41,24 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090511 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090511 released</h1>
+<ul>
+	<li>Objective-C対応Exuberant Ctags 日本語対応版同梱 <a href="http://wiki.github.com/splhack/ctags-objc-ja">http://wiki.github.com/splhack/ctags-objc-ja</a>
+	<li><a href="http://code.google.com/p/macvim-kaoriya/issues/detail?id=9">helpでの不具合を対策</a>
+</ul>
+      ]]></description>
+      <pubDate>Mon, 11 May 2009 21:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090511.dmg"
+        length="38351352"
+        sparkle:version="20090511"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090427 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090427 released</h1>
