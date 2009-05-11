@@ -176,7 +176,7 @@ defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
 
 == ctags ==
 
-[http://hp.vector.co.jp/authors/VA025040/ctags/ exuberant ctags 日本語対応版 5.7J1] を同梱しています。
+[http://wiki.github.com/splhack/ctags-objc-ja Objective-C 対応 Exuberant Ctags 日本語対応版] を同梱しています。
 
 {{{
 !ctags
@@ -190,11 +190,3 @@ alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
 
 などとすると良いでしょう。
 
-
-== helpで固まる ==
-
-$HOME/.vim/doc/tags-js などに `_`TAG_FILE_ENCODING utf-8 行があると固まるようですので、その行を削除してご使用ください。調査中です。
-
-{{{
-!_TAG_FILE_ENCODING utf-8   //
-}}}
