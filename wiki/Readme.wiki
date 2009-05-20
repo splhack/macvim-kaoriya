@@ -181,6 +181,15 @@ defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
 }}}
 
 
+== ウインドウ拡大 ==
+
+「ウインドウ」「拡大」にて横方向も拡大したい場合に設定します。
+
+{{{
+defaults write org.vim.MacVim.KaoriYa MMZoomBoth -boolean YES
+}}}
+
+
 == ctags ==
 
 [http://wiki.github.com/splhack/ctags-objc-ja Objective-C 対応 Exuberant Ctags 日本語対応版] を同梱しています。
