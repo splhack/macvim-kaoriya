@@ -204,7 +204,9 @@ defaults write org.vim.MacVim.KaoriYa MMZoomBoth -boolean YES
 alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
 }}}
 
-などとすると良いでしょう。以下の設定でObjective-Cに対応できます。
+などとすると良いでしょう。
+
+[http://www.vim.org/scripts/script.php?script_id=273 taglist.vim] では以下の設定でObjective-Cに対応できます。
 
 {{{
 let tlist_objc_settings='objc;P:protocols;i:interfaces;I:implementations;M:instance methods;C:implementation methods;Z:protocol methods'
