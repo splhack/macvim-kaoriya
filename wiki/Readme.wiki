@@ -38,6 +38,14 @@ has('gui_macvim')
 
 を使用します。
 
+!MacVim-!KaoriYaかどうかを判別するには、上記に加えて、
+
+{{{
+has('kaoriya')
+}}}
+
+を使用します。
+
 {{{
 has('gui_running')
 }}}
@@ -145,7 +153,7 @@ set imdisable
 
 == +perl / +python / +ruby ==
 
-デフォルトで10.5の標準パスからperl/python/rubyのdylibを動的に読み込みます。
+デフォルトでMac OS X 10.5 (Leopard)の標準パスからperl/python/rubyのdylibを動的に読み込みます。
 
 !MacPortsなどのdylibを使用したい場合は .vimrc にて
 
@@ -155,7 +163,7 @@ let $PYTHON_DLL = "/opt/local/lib/libpython2.5.dylib"
 let $RUBY_DLL = "/opt/local/lib/libruby.dylib"
 }}}
 
-のように指定します。perl5.8.8, python2.5, ruby1.8.xと互換です。perl5.8.9とは非互換です。
+のように指定します。perl5.8.8, python2.5, ruby1.8.xと互換です。perl5.8.9とは非互換となります。
 
 
 == ATSUI ==
@@ -175,6 +183,8 @@ IM入力中など多少表示が気になるところもありますが、ほぼ
 
 
 == 文字間幅 ==
+
+!Terminal.appなどでdefaultsコマンドにて設定できますが、日本語環境では表示が不完全です。
 
 {{{
 defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
