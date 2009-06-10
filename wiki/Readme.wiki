@@ -165,6 +165,8 @@ let $RUBY_DLL = "/opt/local/lib/libruby.dylib"
 
 のように指定します。perl5.8.8, python2.5, ruby1.8.xと互換です。perl5.8.9とは非互換となります。
 
+非互換のものは[Building ソースコードからビルドする]ことで使用できます。python3やruby1.9などは別途パッチが必要となります。vimメーリングリストなどをご参照ください。
+
 
 == ATSUI ==
 
