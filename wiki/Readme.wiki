@@ -224,7 +224,3 @@ alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
 let tlist_objc_settings='objc;P:protocols;i:interfaces;I:implementations;M:instance methods;C:implementation methods;Z:protocol methods'
 }}}
 
-
-== Tiger (Mac OS X 10.4) ==
-
-[http://code.google.com/p/macvim-kaoriya/issues/detail?id=10 対処方法はこちら]
