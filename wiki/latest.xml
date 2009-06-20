@@ -41,6 +41,24 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090620 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090620 released</h1>
+<ul>
+	<li>Vim 7.2.209
+	<li><a href="http://code.google.com/p/macvim-kaoriya/issues/detail?id=10">Mac OS X 10.4 Tiger対応</a>
+</ul>
+      ]]></description>
+      <pubDate>Sat, 20 Jun 2009 21:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090620.dmg"
+        length="38857674"
+        sparkle:version="20090620"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090511 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090511 released</h1>
