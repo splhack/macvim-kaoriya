@@ -1,0 +1,38 @@
+#summary Mac OS X 用 Vimのいろいろ
+
+= Mac OS X 用 Vimのいろいろ =
+
+<wiki:toc max_depth="2" /> 
+
+== Mac OS X 標準搭載 Vim ==
+
+  * /usr/bin/vim
+  * Mac OS X 10.5.7 は Vim 7.2.22
+  * GUI非搭載
+  * ソース [http://opensource.apple.com/source/vim/ http://opensource.apple.com/source/vim/]
+
+== Vim.app ==
+
+  * Vimオリジナルソースコードに含まれたCarbon APIによるGUIアプリケーション
+  * 香り屋パッチなどを追加した!PrivatePortfile [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]
+  * Mac OS X ネイティブGUIアプリケーションとして一番歴史が長い。
+
+== vim-cocoa ==
+
+  * Cocoa APIによるGUIアプリケーション
+  * [http://code.google.com/p/vim-cocoa/ http://code.google.com/p/vim-cocoa/]
+  * ソース [http://repo.or.cz/w/vim-cocoa.git http://repo.or.cz/w/vim-cocoa.git]
+  * 香り屋パッチなどを追加した!PrivatePortfile(+cocoa) [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]
+  * Leopard以降のCore Text APIを使用している。描画速度が一番速いと思われる。MacVimのCore Text branchより安定している。
+  * !MacVim vs vim-cocoa [http://groups.google.co.jp/group/vim_mac/browse_thread/thread/c16868aa7dcad59b/9563a5f3302784fb?#9563a5f3302784fb http://groups.google.co.jp/group/vim_mac/browse_thread/thread/c16868aa7dcad59b/9563a5f3302784fb?#9563a5f3302784fb]
+
+== X11 GUI ==
+
+  * Vimオリジナルソースコードに含まれたX11用フレームワークAPIによるGUIアプリケーション
+  * Xサーバを動作させれば、GTK2などのX11用GUIが使用可能(なはず)
+  * GTK2は +clientserver, +netbeans_intg などにも対応(なはず)
+
+== !MacVim / MacVim-KaoriYa ==
+
+  * Mac OS X ネイティブ GUI アプリケーションとして、唯一、マルチウィンドウ対応、+clientserver対応、+netbeans_intg対応。
+  * もっともメンテナンスされている。
