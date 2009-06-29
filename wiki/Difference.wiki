@@ -32,7 +32,7 @@
   * Xサーバを動作させれば、GTK2などのX11用GUIが使用可能(なはず)
   * GTK2は +clientserver, +netbeans_intg などにも対応(なはず)
 
-== !MacVim / MacVim-KaoriYa ==
+== !MacVim / !MacVim-!KaoriYa ==
 
   * Mac OS X ネイティブ GUI アプリケーションとして、唯一、マルチウィンドウ対応、+clientserver対応、+netbeans_intg対応。
   * もっともメンテナンスされている。
