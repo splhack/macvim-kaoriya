@@ -16,6 +16,7 @@
   * Vimオリジナルソースコードに含まれたCarbon APIによるGUIアプリケーション
   * 香り屋パッチなどを追加した!PrivatePortfile [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]
   * Mac OS X ネイティブGUIアプリケーションとして一番歴史が長い。
+  * Mac OS X で gvimと言ったらこれを指す場合が多い(kaoriya.net配布版gvim=Vim.app 6.2など)
 
 == vim-cocoa ==
 
@@ -28,7 +29,7 @@
 
 == X11 GUI ==
 
-  * Vimオリジナルソースコードに含まれたX11用フレームワークAPIによるGUIアプリケーション
+  * Vimオリジナルソースコードに含まれたX11用フレームワークAPIによるGUI
   * Xサーバを動作させれば、GTK2などのX11用GUIが使用可能(なはず)
   * GTK2は +clientserver, +netbeans_intg などにも対応(なはず)
 
