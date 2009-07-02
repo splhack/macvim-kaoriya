@@ -55,7 +55,7 @@ has('gui_running')
 
 == 香り屋版の情報 ==
 
-Scratchバッファプラグインの動作がおかしいなどの場合は、ホームフォルダ/.vimrcまたは `_`vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 リンク])
+Scratchバッファプラグインの動作がおかしいなどの場合は、ホームフォルダ/.vimrcまたは `_`vimrcで、香り屋版のコマンド類を読み込まないように設定します([http://www.serendip.ws/archives/1687 http://www.serendip.ws/archives/1687])
 
 {{{
 let plugin_cmdex_disable = 1
