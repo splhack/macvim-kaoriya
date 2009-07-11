@@ -13,22 +13,19 @@ http://code.google.com/p/macvim/wiki/Building
 
 = !MacPortsでビルドする =
 
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=editors/macvim;hb=HEAD
+{{{
+git clone git://git.sourceforge.jp/gitroot/splhack/MacPorts.git splhackPorts
+}}}
 
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=textproc/cmigemo;hb=HEAD
-
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=devel/ctags-objc-ja;hb=HEAD
-
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=editors/vimproc;hb=HEAD
-
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git;a=tree;f=devel/clewn;hb=HEAD
-
-snapshot リンクからダウンロード
+/opt/local/etc/macports/sources.conf に追加
+{{{
+file:///Users/hoge/splhackPorts [nosync]
+}}}
 
 {{{
-cd cmigemo
+cd textproc/cmigemo
 sudo port install +utf8
-cd ..; cd macvim
+cd ../../editors/macvim
 sudo port install +cscope +perl +python +ruby
 }}}
 
