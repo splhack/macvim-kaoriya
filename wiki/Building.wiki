@@ -13,14 +13,19 @@ http://code.google.com/p/macvim/wiki/Building
 
 = !MacPortsでビルドする =
 
+http://git.sourceforge.jp/view?p=splhack/MacPorts.git
+
 {{{
 git clone git://git.sourceforge.jp/gitroot/splhack/MacPorts.git splhackPorts
 }}}
 
 /opt/local/etc/macports/sources.conf に追加
+
 {{{
 file:///Users/hoge/splhackPorts [nosync]
 }}}
+
+ビルド
 
 {{{
 cd textproc/cmigemo
