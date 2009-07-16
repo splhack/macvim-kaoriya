@@ -1,4 +1,4 @@
-#summary !MacVim-!KaoriYa チュートリアル その0
+#summary MacVim-KaoriYa チュートリアル その0
 
 = !MacVim-!KaoriYa チュートリアル その0 =
 
@@ -18,17 +18,17 @@
 
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img2.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img2.png]
 
-こんな感じにホームディレクトリが表示されます。
+こんな感じにホームフォルダが表示されます。
 
 {{{
 :call mkdir(".vim")
 }}}
 
-と入力しましょう。ホームディレクトリに .vim ディレクトリを作成するという意味です。
+と入力しましょう。ホームフォルダに .vim フォルダを作成するという意味です。
 
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img3.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img3.png]
 
-リターンキーを押せばディレクトリが作成されます。特に表示は変わりません。すぐさまFinderで確認したいところですが、Finderは .(ドット) で始まるディレクトリを表示できません。直接開いてみましょう。
+リターンキーを押せばフォルダが作成されます。特に表示は変わりません。すぐさまFinderで確認したいところですが、Finderは .(ドット) で始まるフォルダを表示できません。直接開いてみましょう。
 
 {{{
 :!open .vim
@@ -41,10 +41,46 @@
 リターンキーを押せばFinderが開くはずです。
 
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img5.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img5.png]
+
+開きました。さっそくVimのPluginを入れてみましょう。
+
+[http://github.com/Shougo/vimshell/downloads http://github.com/Shougo/vimshell/downloads]
+
+から最新版のzipファイルをダウンロードします。ダウンロードフォルダのzipファイルを開けば、その場所に展開されるはずです。中身を .vim フォルダに移動させてしまいます。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img6.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img6.png]
+
+ドラッグアンドドロップするだけです。無事移動が終わったら、!MacVim-!KaoriYa のウインドウを見てみましょう。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img7.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img7.png]
+
+{{{
+続けるにはENTERを押すかコマンドを入力してください
+}}}
+
+とでてますので、リターンキーを押してしまいます。
+
+つづいてちょっとしたおまじないをします。
+
+{{{
+:edit .vimrc
+}}}
+
+と入力します。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img8.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img8.png]
+
+ホームフォルダに .vimrc ファイルを作成して編集するという意味になります。リターンキーを押して
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img9.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img9.png]
+
+.vimrc ファイルを編集しはじめたことを確認します。
+
+{{{
+" vimshell
+let g:VimShell_EnableInteractive = 1
+}}}
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img10.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img10.png]
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img11.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img11.png]
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img12.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img12.png]
