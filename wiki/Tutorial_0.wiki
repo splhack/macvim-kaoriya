@@ -6,7 +6,9 @@
 
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img0.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img0.png]
 
- :cd
+{{{
+:cd
+}}}
 
 と入力します。
 
@@ -18,7 +20,9 @@
 
 こんな感じにホームディレクトリが表示されます。
 
- :call mkdir(".vim")
+{{{
+:call mkdir(".vim")
+}}}
 
 と入力しましょう。ホームディレクトリに .vim ディレクトリを作成するという意味です。
 
@@ -26,7 +30,9 @@
 
 リターンキーを押せばディレクトリが作成されます。特に表示は変わりません。すぐさまFinderで確認したいところですが、Finderは .(ドット) で始まるディレクトリを表示できません。直接開いてみましょう。
 
- :!open .vim
+{{{
+:!open .vim
+}}}
 
 と入力します。
 
