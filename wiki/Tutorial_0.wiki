@@ -1,8 +1,39 @@
+#summary !MacVim-!KaoriYa チュートリアル その0
+
+= !MacVim-!KaoriYa チュートリアル その0 =
+
+!MacVim-!KaoriYa をインストールして起動するとウインドウが開きます。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img0.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img0.png]
+
+ :cd
+
+と入力します。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img1.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img1.png]
+
+ウインドウの左下に「:cd」と表示されているはずです。リターンキーを押します。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img2.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img2.png]
+
+こんな感じにホームディレクトリが表示されます。
+
+ :call mkdir(".vim")
+
+と入力しましょう。ホームディレクトリに .vim ディレクトリを作成するという意味です。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img3.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img3.png]
+
+リターンキーを押せばディレクトリが作成されます。特に表示は変わりません。すぐさまFinderで確認したいところですが、Finderは .(ドット) で始まるディレクトリを表示できません。直接開いてみましょう。
+
+ :!open .vim
+
+と入力します。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img4.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img4.png]
+
+リターンキーを押せばFinderが開くはずです。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img5.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img5.png]
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img6.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img6.png]
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img7.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img7.png]
