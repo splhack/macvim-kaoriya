@@ -74,15 +74,41 @@
 
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img9.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img9.png]
 
-.vimrc ファイルを編集しはじめたことを確認します。
+.vimrc ファイルを編集しはじめたことを確認します。次に、長いですが、
 
 {{{
 " vimshell
 let g:VimShell_EnableInteractive = 1
 }}}
 
+と入力します。この行をコピーしてペーストしてしまいましょう。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img10.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img10.png]
+
+こうなります。それでおもむろにウインドウ左上の赤い丸をクリックしちゃいます。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img11.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img11.png]
+
+これです。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img12.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img12.png]
+
+{{{
+変更を".vimrc"に保存しますか?
+}}}
+
+と聞かれてますから、「保存」をクリックします。無事にウインドウが閉じるはずです。さて、もう一度 !MacVim-!KaoriYa のウインドウを開きましょう。メニューの「ファイル」「新規ウインドウ」を選択します。ウインドウが開いたはずです。さぁコマンドを入力しましょう。
+
+{{{
+:VimShell
+}}}
+
+大文字小文字に気をつけて。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img13.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img13.png]
+
+ウインドウ左下にちゃんと表示されているはずです。リターンキーを押しましょう。
+
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img14.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img14.png]
+
+さぁ、ここから先はおなじみshellの世界です。ご堪能あれ。
