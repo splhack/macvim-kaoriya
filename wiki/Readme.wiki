@@ -13,7 +13,7 @@
 == アンインストール ==
 
   * アプリケーションフォルダの!MacVimアイコン
-  * ホームフォルダ/ライブラリ/Preferences/org.vim.!MacVim.!KaoriYa.plist
+  * ホームフォルダ/ライブラリ/Preferences/org.vim.!MacVim.plist
 を削除します。
 
 
@@ -200,7 +200,7 @@ IM入力中など多少表示が気になるところもありますが、ほぼ
 !Terminal.appなどでdefaultsコマンドにて設定できますが、日本語環境では表示が不完全です。
 
 {{{
-defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
+defaults write org.vim.MacVim MMCellWidthMultiplier 0.8
 }}}
 
 
@@ -209,7 +209,7 @@ defaults write org.vim.MacVim.KaoriYa MMCellWidthMultiplier 0.8
 「ウインドウ」「拡大」にて横方向も拡大したい場合に設定します。
 
 {{{
-defaults write org.vim.MacVim.KaoriYa MMZoomBoth -boolean YES
+defaults write org.vim.MacVim MMZoomBoth -boolean YES
 }}}
 
 
