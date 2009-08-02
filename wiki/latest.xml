@@ -41,6 +41,31 @@
     -->
 
     <item>
+      <title>macvim-kaoriya-20090802 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090802 released</h1>
+<ul>
+	<li>MacVim snapshot-47
+<p> Changes since snapshot 46:
+  <ul>
+    <li> Fix a bug which could cause a crash when a dialog sheet was used </li>
+  </ul>
+</p>
+	<li>Vim 7.2.245
+	<li>Cyberduck ODBインターフェース対応 (Identifier変更 org.vim.MacVim.Kaoriya → org.vim.MacVim)
+	<li>imdisableactivate option追加 (<a href="http://bit.ly/nEScj">http://bit.ly/nEScj</a>)
+</ul>
+      ]]></description>
+      <pubDate>Sun, 2 Aug 2009 22:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090802.dmg"
+        length="39814597"
+        sparkle:version="20090802"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
       <title>macvim-kaoriya-20090711 released</title>
       <description><![CDATA[
 <h1>MacVim-KaoriYa 20090711 released</h1>
