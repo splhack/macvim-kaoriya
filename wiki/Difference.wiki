@@ -8,6 +8,7 @@
 
   * /usr/bin/vim
   * Mac OS X 10.5.7 は Vim 7.2.22
+  * Mac OS X 10.6 は Vim 7.2.108 (x86_64とi386のuniversal binary)
   * GUI非搭載
   * ソース [http://opensource.apple.com/source/vim/ http://opensource.apple.com/source/vim/]
 
