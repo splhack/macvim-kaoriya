@@ -181,6 +181,8 @@ let $RUBY_DLL = "/opt/local/lib/libruby.dylib"
 
 == ATSUI ==
 
+*Mac OS X 10.6 Snow Leopard ではATSUIレンダラを使用すると正常に描画されません。使用しないように設定してください*
+
 メニューバーの「!MacVim」「環境設定…」より「詳細」タブにて
 
 {{{
@@ -193,6 +195,8 @@ ATSUIレンダラを使用する
  http://developer.apple.com/documentation/Carbon/Conceptual/ATSUI_Concepts/atsui_chap1/atsui_intro.html
 
 IM入力中など多少表示が気になるところもありますが、ほぼ問題なく使用できます。
+
+*Mac OS X 10.6 Snow Leopard ではATSUIレンダラを使用すると正常に描画されません。使用しないように設定してください*
 
 
 == 文字間幅 ==
