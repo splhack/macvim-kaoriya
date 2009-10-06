@@ -164,17 +164,17 @@ set imdisable
 
 == +perl / +python / +ruby ==
 
-デフォルトでMac OS X 10.5 (Leopard)の標準パスからperl/python/rubyのdylibを動的に読み込みます。
+デフォルトでMac OS X 10.6 (Snow Leopard)の標準パスからperl/python/rubyのdylibを動的に読み込みます。
 
 !MacPortsなどのdylibを使用したい場合は .vimrc にて
 
 {{{
-let $PERL_DLL = "/opt/local/lib/perl5/5.8.8/darwin-2level/CORE/libperl.dylib"
-let $PYTHON_DLL = "/opt/local/lib/libpython2.5.dylib"
+let $PERL_DLL = "/opt/local/lib/perl5/5.10.0/darwin-2level/CORE/libperl.dylib"
+let $PYTHON_DLL = "/opt/local/lib/libpython2.6.dylib"
 let $RUBY_DLL = "/opt/local/lib/libruby.dylib"
 }}}
 
-のように指定します。perl5.8.8, python2.5, ruby1.8.xと互換です。perl5.8.9とは非互換となります。
+のように指定します。perl5.10.0, python2.6(2.5), ruby1.8.xと互換です。perl5.8.8,5.8.9,5.10.1とは非互換となります。
 
 非互換のものは[Building ソースコードからビルドする]ことで使用できます。python3やruby1.9などは別途パッチが必要となります。vimメーリングリストなどをご参照ください。
 
