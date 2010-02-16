@@ -162,6 +162,14 @@ set imdisable
 
 を設定してください。
 
+== SKK ==
+
+{{{
+inoremap <silent> <C-j> <C-^>
+}}}
+
+を設定すると良いでしょう。
+
 == +perl / +python / +ruby ==
 
 デフォルトでMac OS X 10.6 (Snow Leopard)の標準パスからperl/python/rubyのdylibを動的に読み込みます。
