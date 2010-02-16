@@ -23,7 +23,7 @@
 
   * Cocoa APIによるGUIアプリケーション
   * [http://code.google.com/p/vim-cocoa/ http://code.google.com/p/vim-cocoa/]
-  * ソース [http://repo.or.cz/w/vim-cocoa.git http://repo.or.cz/w/vim-cocoa.git]
+  * ソース [http://github.com/jjgod/vim-cocoa http://github.com/jjgod/vim-cocoa] (旧[http://repo.or.cz/w/vim-cocoa.git http://repo.or.cz/w/vim-cocoa.git])
   * 香り屋パッチなどを追加した!PrivatePortfile(+cocoa) [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]
   * Leopard以降のCore Text APIを使用している。描画速度が一番速いと思われる。!MacVimのCore Text branchより安定している。
   * !MacVim vs vim-cocoa [http://groups.google.co.jp/group/vim_mac/browse_thread/thread/c16868aa7dcad59b/9563a5f3302784fb?#9563a5f3302784fb http://groups.google.co.jp/group/vim_mac/browse_thread/thread/c16868aa7dcad59b/9563a5f3302784fb?#9563a5f3302784fb]
