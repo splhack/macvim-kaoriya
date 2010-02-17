@@ -94,6 +94,8 @@ set transparency=10    (不透明 0〜100 透明)
 
 == 外部エディタで編集 ==
 
+*Snow Leopard 64bit環境では動作しません*
+
 「環境設定…」の「連携」で「インストール」を押すと、/Library/!InputManagersに外部エディタを呼び出すためのバンドルがインストールされます(SIMBLなどと同じです)。
 
 たとえばSafariでGMailのメール作成時に「編集(またはEdit)」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariなどに反映される仕組みです。Mail.appなどでも使用できます。
@@ -102,6 +104,7 @@ set transparency=10    (不透明 0〜100 透明)
 
 Mail.appでは、「コマンド(⌘)+A」で全選択したのち「シフト＋コントロール＋コマンド(⌘)＋E」を押せば、!MacVimでメールを編集できます。
 
+*Snow Leopard 64bit環境では動作しません*
 
 == 言語環境 ==
 
