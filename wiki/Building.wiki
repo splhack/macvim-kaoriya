@@ -2,13 +2,13 @@
 
 = Gitリポジトリからビルドする =
 
-http://repo.or.cz/w/MacVim/KaoriYa.git
+http://github.com/splhack/macvim
 
 {{{
-git clone git://repo.or.cz/MacVim/KaoriYa.git
+git clone git://github.com/splhack/macvim.git
 }}}
 
-http://code.google.com/p/macvim/wiki/Building
+http://wiki.github.com/b4winckler/macvim/
 
 
 = !MacPortsでビルドする =
