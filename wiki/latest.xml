@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"> 
   <channel>
     <title>MacVim KaoriYa</title>
-	<link>http://macvim-kaoriya.googlecode.com/files/latest.xml</link>
+	<link>http://macvim-kaoriya.googlecode.com/svn/wiki/latest.xml</link>
     <description>Most recent changes with links to updates.</description>
 
     <!--
