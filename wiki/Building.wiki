@@ -6,6 +6,8 @@ http://github.com/splhack/macvim
 
 {{{
 git clone git://github.com/splhack/macvim.git
+cd macvim
+git checkout -b macvim73-kaoriya origin/macvim73-kaoriya
 }}}
 
 http://wiki.github.com/b4winckler/macvim/
