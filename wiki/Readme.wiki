@@ -30,6 +30,8 @@
 
 にて確認できます。
 
+GUIに関する設定、たとえば columns, lines, guioptions, transparency, antialias, colorscheme などの設定は ホームフォルダ/.gvimrc または `_`gvimrc にて設定することをオススメします。
+
 !MacVim(含!MacVim-!KaoriYa)かどうかを判別するには
 
 {{{
