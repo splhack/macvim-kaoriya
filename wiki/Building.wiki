@@ -15,10 +15,10 @@ http://wiki.github.com/b4winckler/macvim/
 
 = !MacPortsでビルドする =
 
-http://git.sourceforge.jp/view?p=splhack/MacPorts.git
+http://github.com/splhack/macports
 
 {{{
-git clone git://git.sourceforge.jp/gitroot/splhack/MacPorts.git splhackPorts
+git clone git://github.com/splhack/macports.git splhackPorts
 }}}
 
 /opt/local/etc/macports/sources.conf に追加
