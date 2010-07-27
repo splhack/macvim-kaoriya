@@ -54,13 +54,13 @@
 	<li>MacVim snapshot 52.4ベース
 </ul>
       ]]></description>
-	  <pubDate>Mon, 26 Jul 2010 17:00:00 +0900</pubDate>
+	  <pubDate>Tue, 27 Jul 2010 11:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-		url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100726.dmg"
-        length="17556258"
-        sparkle:version="20100726"
+		url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100727.dmg"
+        length="17011405"
+        sparkle:version="20100727"
         sparkle:shortVersionString="7.3c BETA"
-		sparkle:dsaSignature="MCwCFELnOsIC/GxS4vZPF69xyOidF8RlAhRqFLSOaGP6bE5yWzayN1RoyBCR1A=="
+		sparkle:dsaSignature="MCwCFGnP4yHp9ynSQ/wX+vAObToacS74AhReqT7ffn8LGJbx46MMz6mkZ8pRAA=="
         />
     </item>
   </channel>
