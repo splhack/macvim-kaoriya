@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>Version 7.3c BETA</title>
+      <title>Version 7.3d BETA</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -50,17 +50,16 @@
       <description><![CDATA[
 <h1>MacVim-KaoriYa テスト版</h1>
 <ul>
-	<li>Vim 7.3c BETAベース
-	<li>MacVim snapshot 52.4ベース
+	<li>MacVim snapshot 52.6ベース
 </ul>
       ]]></description>
-	  <pubDate>Tue, 27 Jul 2010 11:00:00 +0900</pubDate>
+	  <pubDate>Thu, 5 Aug 2010 10:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-		url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100727.dmg"
-        length="17011405"
-        sparkle:version="20100727"
-        sparkle:shortVersionString="7.3c BETA"
-		sparkle:dsaSignature="MCwCFGnP4yHp9ynSQ/wX+vAObToacS74AhReqT7ffn8LGJbx46MMz6mkZ8pRAA=="
+		url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100805.dmg"
+        length="17061007"
+        sparkle:version="20100805"
+        sparkle:shortVersionString="7.3d BETA"
+		sparkle:dsaSignature="MCwCFGiWS/dpOB5tvWQjLk3bzIlIatinAhQY5yIcoseobAAwp2xDXXT4TVr/1w=="
         />
     </item>
   </channel>
