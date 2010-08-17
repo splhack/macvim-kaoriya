@@ -3,7 +3,7 @@
   <channel>
     <title>MacVim-KaoriYa 7.3</title>
 	<link>http://macvim-kaoriya.googlecode.com/svn/wiki/unstable73.xml</link>
-    <description>BETA releases of MacVim-KaoriYa 7.3</description>
+    <description>MacVim-KaoriYa 7.3</description>
 
     <!--
     To add a new release:
@@ -41,25 +41,25 @@
     -->
 
     <item>
-      <title>Version 7.3e BETA</title>
+      <title>MacVim-KaoriYa 7.3 (20100817)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
       </sparkle:releaseNotesLink>
       -->
       <description><![CDATA[
-<h1>MacVim-KaoriYa テスト版</h1>
 <ul>
-	<li>MacVim snapshot 52.7ベース
+    <li>20100816版のMac OS X 10.5 Leopardで起動しない不具合の修正</font>
 </ul>
       ]]></description>
-	  <pubDate>Fri, 13 Aug 2010 08:50:00 +0900</pubDate>
+      <pubDate>Tue, 17 Aug 2010 10:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-		url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100813.dmg"
-        length="16637310"
-        sparkle:version="20100813"
-        sparkle:shortVersionString="7.3e BETA"
-		sparkle:dsaSignature="MCwCFCfiypruHAfcWhNK9WJCuS2PtAaAAhQvqzkNCOKN35uZ/dzch8cZHircxw=="
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100817.dmg"
+        length="16749868"
+        sparkle:version="20100817"
+        sparkle:shortVersionString="7.3"
+        sparkle:dsaSignature="MCwCFDft3XAvyvmvclwu0ZodTUcDCdDlAhQbPuaDnEppKBKA7RnIEl6xq3rRvQ==
+        sparkle:minimumSystemVersion="10.5.0"
         />
     </item>
   </channel>
