@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"> 
   <channel>
-    <title>MacVim-KaoriYa 7.3</title>
+    <title>MacVim KaoriYa</title>
 	<link>http://macvim-kaoriya.googlecode.com/svn/wiki/latest.xml</link>
-    <description>MacVim-KaoriYa 7.3</description>
+    <description>Most recent changes with links to updates.</description>
 
     <!--
     To add a new release:
@@ -41,52 +41,279 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20100816)</title>
-      <!--
-      <sparkle:releaseNotesLink>
-          http://b4winckler.github.com/test/index.html
-      </sparkle:releaseNotesLink>
-      -->
+      <title>macvim-kaoriya-20090802 released</title>
       <description><![CDATA[
-<p><font color=red>Mac OS X 10.4 Tiger非対応となります。</font>
-
+<h1>MacVim-KaoriYa 20090802 released</h1>
 <ul>
-    <li>Vim 7.3 ベース
-    <li>MacVim snapshot 53 ベース
-    <li>香り屋版 Vim 7.2-20100510 ベース
-    <li>Vim日本語ドキュメント 20100731版
-	<li>ctags-objc-ja 20090508版同梱
-	<li>clewn 1.15同梱
-</ul>
-
-<hr>
-
-<p>This is a minor release of Vim.  It consists of Vim 7.2 plus all
-patches, updated runtime files and some more, see below.  It has been
-two years since the 7.2 release, thus it's not that "minor".  But not
-"major" either.  Something in between, don't know how to call that.</p>
-
-<p>The most notable additions since 7.2:
+	<li>MacVim snapshot-47
+<p> Changes since snapshot 46:
   <ul>
-    <li> Persistent undo and undo for reload </li>
-    <li> Blowfish encryption, encryption of the swap file </li>
-    <li> Conceal text </li>
-    <li> Lua interface </li>
-    <li> Python 3 interface </li>
+    <li> Fix a bug which could cause a crash when a dialog sheet was used </li>
   </ul>
 </p>
-
-<p>Once you have installed Vim 7.3 you can find all the details about the
-changes since Vim 7.2 with ":help version-7.3".</p>
+	<li>Vim 7.2.245
+	<li>Cyberduck ODBインターフェース対応 (Identifier変更 org.vim.MacVim.Kaoriya → org.vim.MacVim)
+	<li>imdisableactivate option追加 (<a href="http://bit.ly/nEScj">http://bit.ly/nEScj</a>)
+</ul>
       ]]></description>
-      <pubDate>Mon, 16 Aug 2010 12:30:00 +0900</pubDate>
+      <pubDate>Sun, 2 Aug 2009 22:30:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100816.dmg"
-        length="16677576"
-        sparkle:version="20100816"
-        sparkle:shortVersionString="7.3"
-        sparkle:dsaSignature="MCwCFDXfExf3zkUiRu+CgbKsozRLW9+TAhQhYNNDaKNqAYsDbV5ZBtRoaHvFag=="
-        sparkle:minimumSystemVersion="10.5.0"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090802.dmg"
+        length="39814597"
+        sparkle:version="20090802"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090711 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090711 released</h1>
+<ul>
+	<li>MacVim snapshot-46
+<p> Changes since snapshot 45:
+  <ul>
+    <li> Markdown (Nico Weber) and reStructuredText (Travis Jeffery) are supported file types </li>
+    <li> The forever bouncing Dock icon bug should now really really be fixed (Kazuki Sakamoto) </li>
+    <li> Fixed bug when file name contained decomposed UTF8 characters </li>
+    <li> Quick Look should work for most/all supported filetypes now (although the preview is simple text and is not syntax highlighted) </li>
+    <li> Update the help file </li>
+    <li> 'guifontwide' is updated on Cmd-+/Cmd-- </li>
+    <li> The titles of the next/previous tab menu items now match other apps </li>
+    <li> Add NetBeans support (Kazuki Sakamoto) </li>
+    <li> Add simple logging facility </li>
+    <li> Update to latest Vim patches and runtime files </li>
+  </ul>
+</p>
+	<li>Vim 7.2.228
+	<li><a href="http://github.com/Shougo/vimproc/">vimproc</a>同梱
+	<li><a href="http://clewn.sourceforge.net/">clewn-1.14</a>同梱
+</ul>
+      ]]></description>
+      <pubDate>Sat, 11 Jul 2009 22:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090711.dmg"
+        length="39707834"
+        sparkle:version="20090711"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090620 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090620 released</h1>
+<ul>
+	<li>Vim 7.2.209
+	<li><a href="http://code.google.com/p/macvim-kaoriya/issues/detail?id=10">Mac OS X 10.4 Tiger対応</a>
+</ul>
+      ]]></description>
+      <pubDate>Sat, 20 Jun 2009 21:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090620.dmg"
+        length="38857674"
+        sparkle:version="20090620"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090511 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090511 released</h1>
+<ul>
+	<li>Objective-C対応Exuberant Ctags 日本語対応版同梱 <a href="http://wiki.github.com/splhack/ctags-objc-ja">http://wiki.github.com/splhack/ctags-objc-ja</a>
+	<li><a href="http://code.google.com/p/macvim-kaoriya/issues/detail?id=9">helpでの不具合を対策</a>
+</ul>
+      ]]></description>
+      <pubDate>Mon, 11 May 2009 21:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090511.dmg"
+        length="38351352"
+        sparkle:version="20090511"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090427 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090427 released</h1>
+<ul>
+	<li>Vim 7.2.160
+	<li>英語環境起動を改善
+</ul>
+      ]]></description>
+      <pubDate>Mon, 27 Apr 2009 21:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090427.dmg"
+        length="38519630"
+        sparkle:version="20090427"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090426 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090426 released</h1>
+<ul>
+	<li>IM 状態取得方法を改善(一部nmapなどが効かないのが修正)。
+</ul>
+      ]]></description>
+      <pubDate>Sun, 26 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090426.dmg"
+        length="38516256"
+        sparkle:version="20090426"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090425 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090425 released</h1>
+<ul>
+	<li>IM 状態取得を実装。IM 自動ON/OFF が動作します。
+	<li>ctags 5.7J1 を同梱
+</ul>
+      ]]></description>
+      <pubDate>Sat, 25 Apr 2009 14:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090425.dmg"
+        length="38515932"
+        sparkle:version="20090425"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090423 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090423 released</h1>
+<ul>
+	<li>文字コード判別を向上。fileencodings(fencs)設定不要です。<br>
+		<a href="http://code.google.com/p/macvim-kaoriya/wiki/Readme"
+		 >ドキュメント http://code.google.com/p/macvim-kaoriya/wiki/Readme</a>
+</ul>
+      ]]></description>
+      <pubDate>Thu, 23 Apr 2009 22:00:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090423.dmg"
+        length="41389896"
+        sparkle:version="20090423"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090417 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090417 released</h1>
+<ul>
+	<li>migemo, iconvが使用できない不具合を修正
+</ul>
+      ]]></description>
+      <pubDate>Fri, 17 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090417.dmg"
+        length="38283482"
+        sparkle:version="20090417"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090416 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090416 released</h1>
+<ul>
+	<li>+perl/+python/+ruby に対応。
+		<a href="http://code.google.com/p/macvim-kaoriya/wiki/Readme"
+		 >ドキュメント http://code.google.com/p/macvim-kaoriya/wiki/Readme</a>
+</ul>
+      ]]></description>
+      <pubDate>Thu, 16 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090416.dmg"
+        length="38249866"
+        sparkle:version="20090416"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090414 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090414 released</h1>
+<ul>
+	<li>MacVim snapshot-45
+<p> Changes since snapshot 44:
+  <ul>
+    <li> The toolbar is not hidden by default again (if you prefer having the toolbar hidden, then add the line "set go-=T" to your ~/.gvimrc file) </li>
+    <li> The ATSUI renderer honors the 'guisp' highlighting color </li>
+    <li> Fix the forever bouncing Dock icon bug (Kazuki Sakamoto) </li>
+    <li> Add the "Show Hidden Files" checkbox button to the Save dialog whenever the file browser is expanded </li>
+    <li> Frontend refactoring </li>
+  </ul>
+</p>
+	<li>全角記号幅用にデフォルトで set ambiwidth=double を設定
+</ul>
+      ]]></description>
+      <pubDate>Tue, 14 Apr 2009 21:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090414.dmg"
+        length="38161075"
+        sparkle:version="20090414"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090410 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090410 released</h1>
+<ul>
+	<li>gettextによる日本語化を修正。
+	<li>IM自動ON機能のみ無効化(ESC押下時のIM自動OFFは有効)。
+	<li>言語環境に従うように変更。
+</ul>
+      ]]></description>
+      <pubDate>Fri, 10 Apr 2009 23:30:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090410.dmg"
+        length="38160662"
+        sparkle:version="20090410"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090408 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090408 released</h1>
+      ]]></description>
+      <pubDate>Wed, 08 Apr 2009 21:20:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090408.dmg"
+        length="38123890"
+        sparkle:version="20090408"
+        sparkle:shortVersionString="7.2"
+        />
+    </item>
+
+    <item>
+      <title>macvim-kaoriya-20090406 released</title>
+      <description><![CDATA[
+<h1>MacVim-KaoriYa 20090406 released</h1>
+      ]]></description>
+      <pubDate>Mon, 06 Apr 2009 21:21:00 +0900</pubDate>
+      <enclosure type="application/octet-stream"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20090406.dmg"
+        length="38122873"
+        sparkle:version="20090406"
+        sparkle:shortVersionString="7.2"
         />
     </item>
   </channel>
