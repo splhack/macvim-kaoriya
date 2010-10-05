@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20100902)</title>
+      <title>MacVim-KaoriYa 7.3 (20101005)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -49,17 +49,18 @@
       -->
       <description><![CDATA[
 <ul>
-	<li><a href="http://github.com/b4winckler/macvim/commit/a5db9c5785496aa3461f5ba24fea5a836837a25d">trackpad gestures</a>など
-	<li><a href="http://www.kaoriya.net/vimdoc_j/">Vim日本語ドキュメント</a> 20100901スナップショット
+	<li><a href="http://groups.google.com/group/vim_mac/browse_thread/thread/416a9a0accb1a810">MacVim snapshot 54ベース</a>
+	<li>Vim 7.3.19
+	<li><a href="http://www.kaoriya.net/vimdoc_j/">Vim日本語ドキュメント</a> 20100904スナップショット
 </ul>
       ]]></description>
-      <pubDate>Thu, 2 Sep 2010 12:00:00 +0900</pubDate>
+      <pubDate>Tue, 5 Oct 2010 14:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20100902.dmg"
-		length="16694839"
-        sparkle:version="20100902"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20101005.dmg"
+		length="16715630"
+        sparkle:version="20101005"
         sparkle:shortVersionString="7.3"
-        sparkle:dsaSignature="MCwCFEwOCvz0QnzIYWyjaTSfCfPp8b5aAhRT98O+ZGyreQ16X0c2Z+xV9w3ciQ=="
+		sparkle:dsaSignature="MCwCFEin6U4SF0o5rZcIaNq9OkYYoMnFAhQk+p3u4gpofwNYJpyQ+F60EQ+tqQ=="
         sparkle:minimumSystemVersion="10.5.0"
         />
     </item>
