@@ -94,20 +94,6 @@ set transparency=10    (不透明 0〜100 透明)
 }}}
 
 
-== 外部エディタで編集 ==
-
-*Snow Leopard 64bit環境では動作しません*
-
-「環境設定…」の「連携」で「インストール」を押すと、/Library/!InputManagersに外部エディタを呼び出すためのバンドルがインストールされます(SIMBLなどと同じです)。
-
-たとえばSafariでGMailのメール作成時に「編集(またはEdit)」メニューの「Edit in !MacVim…」を選択すれば、!MacVimで編集できます。保存して終了すれば、Safariなどに反映される仕組みです。Mail.appなどでも使用できます。
-
-デフォルトのキーバインドは「シフト＋コントロール＋コマンド(⌘)＋E」です。
-
-Mail.appでは、「コマンド(⌘)+A」で全選択したのち「シフト＋コントロール＋コマンド(⌘)＋E」を押せば、!MacVimでメールを編集できます。
-
-*Snow Leopard 64bit環境では動作しません*
-
 == 言語環境 ==
 
 Finderから!MacVimアイコンの「情報を見る」「言語」で日本語のチェックを外すと、英語環境で起動します。
@@ -167,6 +153,7 @@ set imdisable
 
 を設定してください。
 
+
 == SKK ==
 
 {{{
@@ -174,6 +161,7 @@ inoremap <silent> <C-j> <C-^>
 }}}
 
 を設定すると良いでしょう。
+
 
 == +perl / +python / +ruby ==
 
@@ -189,27 +177,18 @@ let $RUBY_DLL = "/opt/local/lib/libruby.dylib"
 
 のように指定します。perl5.10.0, python2.6(2.5), ruby1.8.xと互換です。perl5.8.8,5.8.9,5.10.1とは非互換となります。
 
-非互換のものは[Building ソースコードからビルドする]ことで使用できます。python3やruby1.9などは別途パッチが必要となります。vimメーリングリストなどをご参照ください。
+非互換のものは[Building ソースコードからビルドする]ことで使用できます。
 
 
-== ATSUI ==
-
-*Mac OS X 10.6 Snow Leopard ではATSUIレンダラを使用すると正常に描画されません。使用しないように設定してください*
+== 実験的レンダラ ==
 
 メニューバーの「!MacVim」「環境設定…」より「詳細」タブにて
 
 {{{
-ATSUIレンダラを使用する
+実験的レンダラを使用する
 }}}
 
-チェックボックスをONにすると、ATSUIレンダラにより、標準状態より高速に動作します。
-
- !AppleType Services for Unicode Imaging
- http://developer.apple.com/documentation/Carbon/Conceptual/ATSUI_Concepts/atsui_chap1/atsui_intro.html
-
-IM入力中など多少表示が気になるところもありますが、ほぼ問題なく使用できます。
-
-*Mac OS X 10.6 Snow Leopard ではATSUIレンダラを使用すると正常に描画されません。使用しないように設定してください*
+チェックボックスをONにすると、実験的レンダラにより、標準状態より高速に動作します。表示上の問題がある可能性もありますが、ほぼ問題なく使用できます。
 
 
 == 文字間幅 ==
