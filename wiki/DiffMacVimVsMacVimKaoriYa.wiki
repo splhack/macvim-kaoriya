@@ -15,7 +15,7 @@
  * perl/python/rubyのダイナミックローディング
  * ruby1.8/1.9同時対応
  * shared library(gettext/iconv/ncurses/readline/migemo/vimproc)同梱
- * migemo辞書同梱(migemo検索はKaoriYa版パッチによる機能)
+ * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
  * ctags同梱
  * clewn同梱
  * newrw scp使用時のパスワード用ダイアログスクリプト同梱
