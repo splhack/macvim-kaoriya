@@ -38,3 +38,4 @@
 
   * Mac OS X ネイティブ GUI アプリケーションとして、唯一、マルチウィンドウ対応、+clientserver対応、+netbeans_intg対応。
   * もっともメンテナンスされている。
+  * !MacVimと!MacVim-!KaoriYaの差はこちら→ DiffMacVimVsMacVimKaoriYa
