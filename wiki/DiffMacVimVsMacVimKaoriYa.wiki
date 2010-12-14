@@ -1,0 +1,19 @@
+= MacVimとMacVim-KaoriYaの違い =
+
+ * KaoriYa版パッチの統合(http://d.hatena.ne.jp/thinca/20090619/1245338963)
+ * Vim日本語ドキュメントの統合(http://www.kaoriya.net/vimdoc_j/)
+ * MacVim UIのローカライズ
+ * 半角カタカナ描画不具合対策
+ * Gauche由来の文字コード判定ルーチン
+ * IM自動ON制御禁止 imdisableactivate
+ * インラインIM使用/不使用設定追加
+ * インラインIMカーソル位置対策
+ * インラインIM変換対象文字列アンダーラインの二重ライン化
+ * 実験版プロポーショナルフォント描画(実験的レンダラ不使用時のみ) macproportionalfont
+ * perl/python/rubyのダイナミックローディング
+ * ruby1.8/1.9同時対応
+ * shared library(gettext/iconv/ncurses/readline/migemo/vimproc)同梱
+ * migemo辞書同梱(migemo検索はKaoriYa版パッチによる機能)
+ * ctags同梱
+ * clewn同梱
+ * newrw scp使用時のパスワード用ダイアログスクリプト同梱
