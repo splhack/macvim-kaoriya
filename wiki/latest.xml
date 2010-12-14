@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20101122)</title>
+      <title>MacVim-KaoriYa 7.3 (20101214)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -49,23 +49,21 @@
       -->
       <description><![CDATA[
 <ul>
-	<li><a href="http://www.kaoriya.net/#VIM73">香り屋パッチ 20101118</a>
-	<li><a href="http://www.kaoriya.net/vimdoc_j/">日本語ドキュメント 20101114スナップショット</a>
-	<li>Vim 7.3.62
-	<li><a href="http://blogger.splhack.org/2010/11/macvim-kaoriya-20101122.html">netrw scp 要パスワード時にダイアログ表示追加</a>
-	<li><a href="http://blogger.splhack.org/2010/11/macvim-kaoriya-20101122.html">IM on/off切り替え時のCursorIM即時反映</a>
-	<li><a href="http://blogger.splhack.org/2010/11/macvim-kaoriya-20101122.html">Ruby 1.8/1.9 対応</a>
-	<li><a href="http://blogger.splhack.org/2010/11/macvim-kaoriya-20101122.html">実験版プロポーショナルフォント表示対応</a>
-	<li><a href="https://github.com/Shougo/vimproc">vimproc</a> shared libraryのみ同梱
+	<li><a href="http://www.kaoriya.net/#VIM73">香り屋パッチ 20101209</a>
+	<li><a href="http://www.kaoriya.net/vimdoc_j/">日本語ドキュメント 20101207スナップショット</a>
+	<li>Vim 7.3.81
+	<li>Ruby 1.8/1.9 対応
+	<li>Python 3対応
+	<li><a href="https://github.com/tpope/vim-pathogen">pathgen.vim</a>(20101108)同梱
 </ul>
       ]]></description>
-      <pubDate>Mon, 22 Nov 2010 09:00:00 +0900</pubDate>
+      <pubDate>Tue, 14 Dec 2010 12:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20101122.dmg"
-		length="16831815"
-        sparkle:version="20101122"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20101214.dmg"
+		length="16922077"
+        sparkle:version="20101214"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFGTb6+NZKl1eO4BYN9FVZHBmzpIqAhQyouE3Bn3j/aiAenU21KecVn2qWg=="
+		sparkle:dsaSignature="MCwCFDYO/2oEbRd/7fxG2Hg1GJlPfLCVAhQN2ne+HZHb6/qzJAMzKMDbdAkBkw=="
         sparkle:minimumSystemVersion="10.5.0"
         />
     </item>
