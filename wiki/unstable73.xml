@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20101214)</title>
+      <title>MacVim-KaoriYa 7.3 (20101222)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -49,21 +49,18 @@
       -->
       <description><![CDATA[
 <ul>
-	<li><a href="http://www.kaoriya.net/#VIM73">香り屋パッチ 20101209</a>
-	<li><a href="http://www.kaoriya.net/vimdoc_j/">日本語ドキュメント 20101207スナップショット</a>
-	<li>Vim 7.3.81
-	<li>Ruby 1.8/1.9 対応
-	<li>Python 3対応
-	<li><a href="https://github.com/tpope/vim-pathogen">pathgen.vim</a>(20101108)同梱
+	<li><a href="https://github.com/b4winckler/macvim/wiki/ChangeLog">MacVim Snapshot 56</a>ベース
+	<li><a href="http://www.kaoriya.net/#VIM73">香り屋パッチ 20101218</a>ベース
+	<li>Vim 7.3.87ベース
 </ul>
       ]]></description>
-      <pubDate>Tue, 14 Dec 2010 12:00:00 +0900</pubDate>
+      <pubDate>Wed, 22 Dec 2010 12:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20101214.dmg"
-		length="16922077"
-        sparkle:version="20101214"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20101222.dmg"
+		length="16824633"
+        sparkle:version="20101222"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFDYO/2oEbRd/7fxG2Hg1GJlPfLCVAhQN2ne+HZHb6/qzJAMzKMDbdAkBkw=="
+		sparkle:dsaSignature="MC0CFQCIMKM9xX5JjT3Z6IYmVrNLy6+A1AIUGad3c6m7z//+Ot90jKtPeNWLFO8="
         sparkle:minimumSystemVersion="10.5.0"
         />
     </item>
