@@ -2,6 +2,8 @@
 
 = !MacVim-!KaoriYa チュートリアル その0 =
 
+*情報が古くなっています。近日中に更新します。*
+
 !MacVim-!KaoriYa をインストールして起動するとウインドウが開きます。
 
 [http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img0.png http://macvim-kaoriya.googlecode.com/svn/wiki/tutorial_0/img0.png]
