@@ -24,7 +24,7 @@
 
  * !MacVim.app(GUI)実行時用オプション(フルスクリーンなど)の追加
 
-Terminal.appやiTerm.appからmvimスクリプトなどで!MacVim内蔵Vimを使用した場合、基本的に差はありません。
+[http://code.google.com/p/macvim-kaoriya/wiki/Readme#コンソールからの使用 Terminal.appやiTerm.appからmvimスクリプトなどでMacVim内蔵Vimを使用した場合]、基本的に差はありません。
 
 = !MacVim内蔵Vimと!MacVim-!KaoriYa内蔵Vimの違い =
 
