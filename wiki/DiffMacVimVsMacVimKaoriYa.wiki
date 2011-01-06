@@ -31,7 +31,11 @@
 [http://code.google.com/p/macvim-kaoriya/wiki/Readme#コンソールからの使用 Terminal.appやiTerm.appからmvimスクリプトなどでMacVim-KaoriYa内蔵Vimを使用した場合]、オリジナルのVimに対する主な違いは、[http://code.google.com/p/macvim-kaoriya/wiki/Readme#香り屋版の情報 KaoriYa版パッチ同梱のvim scriptがデフォルトで実行される]ことです。
 
  * !KaoriYa版パッチの統合(http://d.hatena.ne.jp/thinca/20090619/1245338963)
+ * Vim日本語ドキュメントの統合(http://www.kaoriya.net/vimdoc_j/)
  * !MacVim.app(GUI)実行時用オプション(imdisableactivateなど)の追加
  * Gauche由来の文字コード判定ルーチン
  * perl/python/rubyのダイナミックローディング
  * ruby1.8/1.9同時対応
+ * shared library(gettext/iconv/ncurses/readline/migemo/vimproc)同梱
+ * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
+ * ctags同梱
