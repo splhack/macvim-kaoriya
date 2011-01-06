@@ -22,11 +22,13 @@
 
 = !MacVim内蔵VimとオリジナルのVimの違い =
 
+[http://code.google.com/p/macvim-kaoriya/wiki/Readme#コンソールからの使用 Terminal.appやiTerm.appからmvimスクリプトなどでMacVim内蔵Vimを使用した場合]、オリジナルのVimと基本的に差はありません。
+
  * !MacVim.app(GUI)実行時用オプション(フルスクリーンなど)の追加
 
-[http://code.google.com/p/macvim-kaoriya/wiki/Readme#コンソールからの使用 Terminal.appやiTerm.appからmvimスクリプトなどでMacVim内蔵Vimを使用した場合]、基本的に差はありません。
-
 = !MacVim内蔵Vimと!MacVim-!KaoriYa内蔵Vimの違い =
+
+[http://code.google.com/p/macvim-kaoriya/wiki/Readme#コンソールからの使用 Terminal.appやiTerm.appからmvimスクリプトなどでMacVim-KaoriYa内蔵Vimを使用した場合]、オリジナルのVimに対する主な違いは、[http://code.google.com/p/macvim-kaoriya/wiki/Readme#香り屋版の情報 KaoriYa版パッチ同梱のvim scriptがデフォルトで実行される]ことです。
 
  * !KaoriYa版パッチの統合(http://d.hatena.ne.jp/thinca/20090619/1245338963)
  * !MacVim.app(GUI)実行時用オプション(imdisableactivateなど)の追加
