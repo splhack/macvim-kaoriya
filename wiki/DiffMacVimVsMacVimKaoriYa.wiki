@@ -19,3 +19,16 @@
  * ctags同梱
  * clewn同梱
  * newrw scp使用時のパスワード用ダイアログスクリプト同梱
+
+= !MacVim内蔵!Vimとオリジナルの!Vimの違い =
+
+ * !MacVim.app(GUI)実行時用オプション追加など
+
+Terminal.appやiTerm.appからmvimスクリプトなどで!MacVim内蔵Vimを使用した場合、基本的に差はありません。
+
+= !MacVim内蔵Vimと!MacVim-!KaoriYa内蔵Vimの違い =
+
+ * !KaoriYa版パッチの統合(http://d.hatena.ne.jp/thinca/20090619/1245338963)
+ * Gauche由来の文字コード判定ルーチン
+ * perl/python/rubyのダイナミックローディング
+ * ruby1.8/1.9同時対応
