@@ -163,12 +163,12 @@ alias gvim='env LANG=ja_JP.UTF-8 open -a /Applications/MacVim.app "$@"'
 ----
 == 日本語入力(IM)自動オン/オフ ==
 
-入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオン/オフにする機能が入っています(iminsertなどに反映されます)。
+入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオフにする機能が入っています(iminsertなどに反映されます)。
 
-自動的に日本語入力(IM)をオンにする機能のみ禁止するには
+自動的に日本語入力(IM)をオンにする機能を有効にするには
 
 {{{
-set imdisableactivate
+set noimdisableactivate
 }}}
 
 を設定し、自動的に日本語入力(IM)をオン/オフにする機能すべてを禁止するには
