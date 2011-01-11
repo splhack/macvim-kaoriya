@@ -49,9 +49,8 @@
       -->
       <description><![CDATA[
 <ul>
-	<li><a href="https://github.com/b4winckler/macvim/wiki/ChangeLog">MacVim Snapshot 56</a>ベース
-	<li><a href="http://www.kaoriya.net/#VIM73">香り屋パッチ 20101218</a>ベース
-	<li>Vim 7.3.87ベース
+	<li>Vim 7.3.99ベース
+	<li><a href="http://www.kaoriya.net/#VIM73">香り屋パッチ 20110109</a>ベース
 </ul>
       ]]></description>
       <pubDate>Tue, 11 Jan 2011 16:00:00 +0900</pubDate>
