@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20101222)</title>
+      <title>MacVim-KaoriYa 7.3 (20110111)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -54,13 +54,13 @@
 	<li>Vim 7.3.87ベース
 </ul>
       ]]></description>
-      <pubDate>Wed, 22 Dec 2010 12:00:00 +0900</pubDate>
+      <pubDate>Tue, 11 Jan 2011 16:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20101222.dmg"
-		length="16824633"
-        sparkle:version="20101222"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110111.dmg"
+		length="16643292"
+        sparkle:version="20110111"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MC0CFQCIMKM9xX5JjT3Z6IYmVrNLy6+A1AIUGad3c6m7z//+Ot90jKtPeNWLFO8="
+		sparkle:dsaSignature="MCwCFC4hcJb0yaE/z8YVzWCvxq9z/EguAhQBxW/aRok40qzIuKgzivGHNrU37A=="
         sparkle:minimumSystemVersion="10.5.0"
         />
     </item>
