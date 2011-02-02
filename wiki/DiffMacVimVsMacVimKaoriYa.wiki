@@ -17,7 +17,6 @@
  * shared library(gettext/iconv/ncurses/readline/migemo/vimproc)同梱
  * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
  * ctags同梱
- * clewn同梱
  * newrw scp使用時のパスワード用ダイアログスクリプト同梱
 
 = !MacVim内蔵VimとオリジナルのVimの違い =
