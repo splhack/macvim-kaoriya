@@ -30,6 +30,10 @@
 ----
 == vimrc/gvimrc ==
 
+GUIに関係しない設定、たとえば tabstop, shiftwidth, expandtab, wrap, showmatch などの設定はホームフォルダ/.vimrcにて設定することをオススメします。
+
+GUIに関する設定、たとえば columns, lines, guioptions, transparency, antialias, colorscheme などの設定は ホームフォルダ/.gvimrcにて設定することをオススメします。
+
   # !MacVim.app/Contents/Resources/vim/vimrc
   # ホームフォルダ/.vimrc または `_`vimrc
   # !MacVim.app/Contents/Resources/vim/gvimrc
@@ -40,8 +44,6 @@
  [http://www.ac.cyberhome.ne.jp/~yakahaira/vimdoc/repeat.html#:scriptnames :scriptnames]
 
 にて確認できます。
-
-GUIに関する設定、たとえば columns, lines, guioptions, transparency, antialias, colorscheme などの設定は ホームフォルダ/.gvimrc または `_`gvimrc にて設定することをオススメします。
 
 !MacVim(含!MacVim-!KaoriYa)かどうかを判別するには
 
