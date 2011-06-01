@@ -132,13 +132,29 @@ fileencodings(fencs) は設定不要です。.vimrcなどでfileencodings(fencs)
 
 
 ----
-== コンソールからの使用 ==
+== コンソールから!MacVim.appを起動する ==
 
-Terminal.appやiTerm.appから使用する場合は、
+Terminal.appやiTerm.appから!MacVim.app (GUI)を起動する場合は、
 
  [http://github.com/splhack/macvim/raw/master/src/MacVim/mvim mvimシェルスクリプト]
 
 が便利です。mvim ファイル名 で使用できます。もしくは、たとえばzshのエイリアスでも、
+
+{{{
+alias gvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim -g "$@"'
+}}}
+
+などとすると gvim ファイル名 で!MacVim.appを使用できます。
+
+
+----
+== コンソールでVimを使用する ==
+
+Terminal.appやiTerm.app上でGUIの!MacVim.appではなくVimを使用する場合は、
+
+ [http://github.com/splhack/macvim/raw/master/src/MacVim/mvim mvimシェルスクリプト]
+
+が便利です。mvimファイルをvimファイルという名前にリネーム(もしくはコピーまたはsymbolic link)すると、vim ファイル名 でコンソール上でVimを使用できます。もしくは、たとえばzshのエイリアスでも、
 
 {{{
 alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
@@ -152,21 +168,13 @@ alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim -u $H
 
 とすると良いでしょう。
 
-コンソールから!MacVim.appを使用する場合は、
-
-{{{
-alias gvim='env LANG=ja_JP.UTF-8 open -a /Applications/MacVim.app "$@"'
-}}}
-
-としておけば、gvim ファイル名 で!MacVim.appで編集できます。
-
 [DiffMacVimVsMacVimKaoriYa MacVim.app(GUI)実行時とコンソール実行時の違い]
 
 
 ----
 == 日本語入力(IM)自動オン/オフ ==
 
-入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオフにする機能が入っています(iminsertなどに反映されます)。
+入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオフにする機能が入っています(iminsertなどに反映されます)。コンソールから
 
 自動的に日本語入力(IM)をオンにする機能を有効にするには
 
