@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20110330)</title>
+      <title>MacVim-KaoriYa 7.3 (20110630)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -49,18 +49,18 @@
       -->
       <description><![CDATA[
 <ul>
-	<li>MacVim snapshort 57ベース
-	<li>Vim 7.3.146ベース
-	<li><a href="http://www.kaoriya.net/news/20110323_vim">香り屋パッチ 20110323</a>ベース
+	<li>MacVim snapshort 58ベース
+	<li>Vim 7.3.237ベース
+	<li><a href="http://www.kaoriya.net/news/20110627">香り屋パッチ 20110627</a>ベース
 </ul>
       ]]></description>
-      <pubDate>Wed, 30 Mar 2011 12:00:00 +0900</pubDate>
+      <pubDate>Thu, 30 Jun 2011 06:30:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110330.dmg"
-		length="17435987"
-        sparkle:version="20110330"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110630.dmg"
+		length="17514756"
+        sparkle:version="20110630"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFFMjLN65v2ULHzTHcS64iDeSKOIuAhR7R1w1F1Z4CIK2cqB8GNIE1MW01g=="
+		sparkle:dsaSignature="MCwCFCuEb0fkfe65hj88gQKkJWvMQ+noAhRFp5XP7AZ7h2m5Lu36fedfZNHz0Q=="
         sparkle:minimumSystemVersion="10.5.0"
         />
     </item>
