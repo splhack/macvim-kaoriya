@@ -174,7 +174,7 @@ alias vi='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim -u $H
 ----
 == 日本語入力(IM)自動オン/オフ ==
 
-入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオフにする機能が入っています(iminsertなどに反映されます)。コンソールから
+GUIの!MacVim.appで使用する場合、入力モードから抜ける時、入る時などに、自動的に日本語入力(IM)をオフにする機能が入っています(iminsertなどに反映されます)。
 
 自動的に日本語入力(IM)をオンにする機能を有効にするには
 
@@ -190,6 +190,7 @@ set imdisable
 
 を設定してください。
 
+コンソールで使用する場合は、!KeyRemap4MacBookを使うと便利でしょう。[http://d.hatena.ne.jp/r7kamura/20110217/1297910068 http://d.hatena.ne.jp/r7kamura/20110217/1297910068]
 
 ----
 == SKK ==
