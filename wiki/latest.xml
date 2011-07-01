@@ -48,6 +48,8 @@
       </sparkle:releaseNotesLink>
       -->
       <description><![CDATA[
+<p><font color=red>Vim本体の更新により、エラーなど影響が出るpluginがあるようです。まずpluginを最新にアップデートすることをお試し下さいませ。</font>
+
 <ul>
 	<li>MacVim snapshort 58ベース
 	<li>Vim 7.3.237ベース
