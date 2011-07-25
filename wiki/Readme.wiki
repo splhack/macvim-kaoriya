@@ -205,17 +205,17 @@ inoremap <silent> <C-j> <C-^>
 ----
 == +perl / +python / +ruby ==
 
-デフォルトでMac OS X 10.6 (Snow Leopard)の標準パスからperl/python/rubyのdylibを動的に読み込みます。
+デフォルトで10.6 Snow Leopard、10.7 Lionの標準パスからperl/python/rubyのdylibを動的に読み込みます。
 
 !MacPortsなどのdylibを使用したい場合は .vimrc にて
 
 {{{
 let $PERL_DLL = "/opt/local/lib/perl5/5.10.0/darwin-2level/CORE/libperl.dylib"
 let $PYTHON_DLL = "/opt/local/lib/libpython2.6.dylib"
-let $RUBY_DLL = "/opt/local/lib/libruby.1.9.dylib"
+let $RUBY_DLL = "/opt/local/lib/libruby.1.8.dylib"
 }}}
 
-のように指定します。perl5.10.0, python2.6(2.5), ruby1.8.x, ruby1.9.xと互換です。perl5.8.8,5.8.9,5.10.1とは非互換となります。
+のように指定します。20110725版以降 perl5.10.x, python2.6, python3.2(MacPorts), ruby1.8.x, ruby1.9.x(MacPorts)と互換となります。
 
 非互換のものは[Building ソースコードからビルドする]ことで使用できます。
 
