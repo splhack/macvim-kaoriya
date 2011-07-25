@@ -41,29 +41,30 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20110630)</title>
+      <title>MacVim-KaoriYa 7.3 (20110725)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
       </sparkle:releaseNotesLink>
       -->
       <description><![CDATA[
-<p><font color=red>Vim本体の更新により、エラーなど影響が出るpluginがあるようです。まずpluginを最新にアップデートすることをお試し下さいませ。</font>
+<p><font color=red>本バージョンより Mac OS X 10.5 Leopard 非対応となります。</font>
 
 <ul>
-	<li>MacVim snapshort 58ベース
-	<li>Vim 7.3.237ベース
-	<li><a href="http://www.kaoriya.net/news/20110627">香り屋パッチ 20110627</a>ベース
+	<li>OS X 10.6 Snow Leopard、10.7 Lion 動作確認済み
+	<li>MacVim snapshort 60ベース
+	<li>Vim 7.3.260ベース
+	<li><a href="http://www.kaoriya.net/news/20110722">香り屋パッチ 20110722</a>ベース
 </ul>
       ]]></description>
-      <pubDate>Thu, 30 Jun 2011 06:30:00 +0900</pubDate>
+      <pubDate>Mon, 25 Jun 2011 06:30:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110630.dmg"
-		length="17514756"
-        sparkle:version="20110630"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110725.dmg"
+		length="15088787"
+        sparkle:version="20110725"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFCuEb0fkfe65hj88gQKkJWvMQ+noAhRFp5XP7AZ7h2m5Lu36fedfZNHz0Q=="
-        sparkle:minimumSystemVersion="10.5.0"
+		sparkle:dsaSignature="MCwCFB0eWYw0aEqURB6Q0G2b1TbDuT+8AhRRjbjJ/GNnNn9BzF2CKXpR+8hHNQ=="
+        sparkle:minimumSystemVersion="10.6"
         />
     </item>
   </channel>
