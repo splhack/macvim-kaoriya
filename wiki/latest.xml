@@ -64,7 +64,7 @@
         sparkle:version="20110725"
         sparkle:shortVersionString="7.3"
 		sparkle:dsaSignature="MCwCFB0eWYw0aEqURB6Q0G2b1TbDuT+8AhRRjbjJ/GNnNn9BzF2CKXpR+8hHNQ=="
-        sparkle:minimumSystemVersion="10.6"
+        sparkle:minimumSystemVersion="10.6.1"
         />
     </item>
   </channel>
