@@ -255,7 +255,7 @@ defaults write org.vim.MacVim MMZoomBoth -boolean YES
 ----
 == Lionフルスクリーン ==
 
-Lionのフルスクリーン機能ではなく、従来のフルスクリーン実装をしようしたい場合に設定します。
+Lionのフルスクリーン機能ではなく、従来のフルスクリーン実装を使用したい場合に設定します。
 
 {{{
 defaults write org.vim.MacVim MMNativeFullScreen 0
