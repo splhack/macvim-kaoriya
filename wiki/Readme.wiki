@@ -253,6 +253,16 @@ defaults write org.vim.MacVim MMZoomBoth -boolean YES
 
 
 ----
+== Lionフルスクリーン ==
+
+Lionのフルスクリーン機能ではなく、従来のフルスクリーン実装をしようしたい場合に設定します。
+
+{{{
+defaults write org.vim.MacVim MMNativeFullScreen 0
+}}}
+
+
+----
 == ctags ==
 
 [http://wiki.github.com/splhack/ctags-objc-ja Objective-C 対応 Exuberant Ctags 日本語対応版] を同梱しています。
