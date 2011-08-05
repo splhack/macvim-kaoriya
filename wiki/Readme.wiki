@@ -235,7 +235,7 @@ let $RUBY_DLL = "/opt/local/lib/libruby.1.8.dylib"
 ----
 == 文字間幅 ==
 
-!Terminal.appなどでdefaultsコマンドにて設定できますが、日本語環境では表示が不完全です。
+Terminal.appなどでdefaultsコマンドにて設定できますが、日本語環境では表示が不完全です。
 
 {{{
 defaults write org.vim.MacVim MMCellWidthMultiplier 0.8
