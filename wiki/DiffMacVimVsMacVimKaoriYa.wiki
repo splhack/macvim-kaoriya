@@ -45,4 +45,4 @@
 
  * !MacVim.app(GUI)実行時は、.gvimrcなどのGUI用のスクリプトがデフォルトで実行されます。
  * !MacVim.app(GUI)実行時は、+clientserver機能、+netbeans_intg機能が有効化されます。vim-ruby-debuggerなどを使うことができます。
- * !MacVim.app(GUI)実行時は、コンソールと異なる描画ルーチンが使用されます。
+ * !MacVim.app(GUI)実行時は、コンソールと異なる描画ルーチンが使用されます(Terminal.appの場合、一部の全角記号などの幅がASCII2文字分であるべきところがASCII1文字分となり描画がおかしくなりますが、GUIでは正しく描画されます。なおiTerm2でも正しく描画されます。コンソールで使用する場合はiTerm2を使用するとよいでしょう)
