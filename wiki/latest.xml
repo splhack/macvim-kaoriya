@@ -61,10 +61,10 @@
       <pubDate>Mon, 19 Sep 2011 09:30:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
         url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110919.dmg"
-		length="15140800"
+		length="15383818"
         sparkle:version="20110919"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MC0CFEwizel1qAQhQjHt6QGd3Gk7HBySAhUAiHdSAazZQR3YFhPcfAcCXOGV89I="
+		sparkle:dsaSignature="MCwCFD1cWIBJIlpqq9zRLr1nbC9DNoqTAhQNVWYgIarvZlvG3UcQ0JhIII7FNg=="
         sparkle:minimumSystemVersion="10.6.1"
         />
     </item>
