@@ -54,6 +54,8 @@
 	<li>MacVim snapshort 62ベース
 	<li>Vim 7.3.315ベース
 	<li><a href="http://www.kaoriya.net/news/20110916">香り屋パッチ 20110916</a>ベース
+	<li><a href="https://github.com/Shougo/vimproc">vimproc.so 20110914版をビルド</a>
+	<li>pathogen.vimの同梱を廃止
 </ul>
       ]]></description>
       <pubDate>Mon, 19 Sep 2011 09:30:00 +0900</pubDate>
