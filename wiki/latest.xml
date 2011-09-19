@@ -50,20 +50,19 @@
       <description><![CDATA[
 
 <ul>
-	<li>OS X 10.6 Snow Leopard、10.7 Lion 動作確認済み
 	<li><font color=red>OS X 10.5 Leopardは非対応です</font>
-	<li>MacVim snapshort 61ベース (Lionフルスクリーン対応)
-	<li>Vim 7.3.260ベース
-	<li><a href="http://www.kaoriya.net/news/20110722">香り屋パッチ 20110722</a>ベース
+	<li>MacVim snapshort 62ベース
+	<li>Vim 7.3.315ベース
+	<li><a href="http://www.kaoriya.net/news/20110916">香り屋パッチ 20110916</a>ベース
 </ul>
       ]]></description>
-      <pubDate>Mon, 1 Aug 2011 09:30:00 +0900</pubDate>
+      <pubDate>Mon, 19 Sep 2011 09:30:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110801.dmg"
-		length="15304098"
-        sparkle:version="20110801"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20110919.dmg"
+		length="15140800"
+        sparkle:version="20110919"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MC0CFQCJkexXwvuFvxq3gMRNomWIkuas2gIUU4qiHzHeDKszJ6gkt1+wJ9j7M6Y="
+		sparkle:dsaSignature="MC0CFEwizel1qAQhQjHt6QGd3Gk7HBySAhUAiHdSAazZQR3YFhPcfAcCXOGV89I="
         sparkle:minimumSystemVersion="10.6.1"
         />
     </item>
