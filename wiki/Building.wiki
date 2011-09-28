@@ -10,7 +10,7 @@ cd macvim
 git checkout -b master origin/master
 }}}
 
-http://wiki.github.com/b4winckler/macvim/ を参照
+https://github.com/b4winckler/macvim/wiki/Building を参照
 
 
 = !MacPortsでビルドする =
