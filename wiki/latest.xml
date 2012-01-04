@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20111111)</title>
+      <title>MacVim-KaoriYa 7.3 (20120105)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -51,19 +51,20 @@
 
 <ul>
 	<li><font color=red>OS X 10.5 Leopardは非対応です</font>
-	<li>MacVim snapshort 63ベース
-	<li>Vim 7.3.353ベース
-		<li><a href="http://www.kaoriya.net/news/20111027">香り屋パッチ 20111027</a>ベース
-	<li><a href="https://github.com/Shougo/vimproc">vimproc.so 20111026版</a>
+	<li>MacVim snapshort 64ベース
+	<li>Vim 7.3.390ベース
+	<li><a href="http://www.kaoriya.net/news/20111231">香り屋パッチ 20111231</a>ベース
+	<li><a href="https://github.com/vim-jp/vimdoc-ja/wiki">日本語ドキュメント 20120104スナップショット</a>
+	<li><a href="https://github.com/Shougo/vimproc">vimproc.so 20120101版</a>
 </ul>
       ]]></description>
-      <pubDate>Fri, 11 Nov 2011 08:00:00 +0900</pubDate>
+      <pubDate>Thu, 5 Jan 2012 08:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20111111.dmg"
-		length="15583608"
-        sparkle:version="20111111"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20120105.dmg"
+		length="16601772"
+        sparkle:version="20120105"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFHrXvuVsdG8/rejZ6urS1uzUG5hbAhRpFozmVFN9qRgzg+L1jUpZNqPaPg=="
+		sparkle:dsaSignature="MCwCFEWf98A25YrwQbixm8taRqkdq6GEAhQ96wCQC2LWmK9NjUyNfI7ggIMLbw=="
         sparkle:minimumSystemVersion="10.6.1"
         />
     </item>
