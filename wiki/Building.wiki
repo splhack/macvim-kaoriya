@@ -13,29 +13,17 @@ git checkout -b master origin/master
 https://github.com/b4winckler/macvim/wiki/Building を参照
 
 
-= !MacPortsでビルドする =
+= !HomeBrewでビルドする =
 
-http://github.com/splhack/macports
+https://github.com/splhack/homebrew
 
-{{{
-git clone git://github.com/splhack/macports.git splhackPorts
-}}}
-
-/opt/local/etc/macports/sources.conf に追加
-
-{{{
-file:///Users/hoge/splhackPorts [nosync]
-}}}
+https://github.com/splhack/homebrew/blob/master/Library/Formula/cmigemo.rb
+https://github.com/splhack/homebrew/blob/master/Library/Formula/ctags-objc-ja.rb
+https://github.com/splhack/homebrew/blob/master/Library/Formula/vimproc.rb
+https://github.com/splhack/homebrew/blob/master/Library/Formula/macvim-kaoriya.rb
 
 ビルド
 
 {{{
-cd textproc/cmigemo
-sudo port install +utf8
-cd ../../editors/macvim
-sudo port install +cscope +perl +python +ruby
-}}}
-
-{{{
-インストール先 /Applications/MacPorts/MacVim.app
+brew install --HEAD macvim-kaoriya
 }}}
