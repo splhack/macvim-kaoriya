@@ -140,6 +140,13 @@ Terminal.appやiTerm.appから!MacVim.app (GUI)を起動する場合は、mvim�
 $ /Applications/MacVim.app/Contents/MacOS/mvim
 }}}
 
+GUIでvimdiffを起動するにはmvimdiffを使用します。
+
+{{{
+$ /Applications/MacVim.app/Contents/MacOS/mvimdiff file1 file2
+}}}
+
+/Applications/MacVim.app/Contents/MacOSにパスを通すと便利です。
 
 ----
 == コンソールでVimを使用する ==
