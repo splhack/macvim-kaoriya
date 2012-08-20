@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20120509)</title>
+      <title>MacVim-KaoriYa 7.3 (20120821)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -50,21 +50,20 @@
       <description><![CDATA[
 
 <ul>
-	<li>OS X 10.6/10.7対応
-	<li>x86_64アーキテクチャ対応 (<font color=red>i386アーキテクチャは非対応になりました</font>)
+	<li>OS X 10.6/10.7/10.8対応
 	<li>MacVim snapshort 64
-	<li>Vim 7.3.515
-	<li><a href="http://www.kaoriya.net/news/2012/20120501">香り屋パッチ 20120501版</a>
-	<li><a href="https://github.com/Shougo/vimproc">vimproc_mac.so 20120502版</a>
+	<li>Vim 7.3.633
+	<li><a href="http://www.kaoriya.net/news/2012/20120818">香り屋パッチ 20120818版</a>
+	<li>Mountain Lionのデフォルトに合わせて、+python/dynのリンク対象を2.7に、+perl/dynのリンク対象を5.12に変更しました。
 </ul>
       ]]></description>
-      <pubDate>Wed, 9 May 2012 22:00:00 +0900</pubDate>
+      <pubDate>Tue, 21 Aug 2012 08:00:00 +0900</pubDate>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20120509.dmg"
-		length="11076363"
-        sparkle:version="20120509"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20120821.dmg"
+		length="10992860"
+        sparkle:version="20120821"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFC4SIYbAyAyEqpu6smGSpv8jaxzkAhRm492kAPxOvPtZtFOLST4piIPWBg=="
+		sparkle:dsaSignature="MCwCFEf79aXLNYDdUKCXkch57Sodc1uEAhRQxEZvQ9Hg8N9vZ8c0IVM62XLyQA=="
         sparkle:minimumSystemVersion="10.6.1"
         />
     </item>
