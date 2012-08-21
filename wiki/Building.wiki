@@ -19,7 +19,6 @@ https://github.com/splhack/homebrew
 
 https://github.com/splhack/homebrew/blob/master/Library/Formula/cmigemo.rb
 https://github.com/splhack/homebrew/blob/master/Library/Formula/ctags-objc-ja.rb
-https://github.com/splhack/homebrew/blob/master/Library/Formula/vimproc.rb
 https://github.com/splhack/homebrew/blob/master/Library/Formula/macvim-kaoriya.rb
 
 ビルド
