@@ -58,13 +58,13 @@
 </ul>
       ]]></description>
       <pubDate>Tue, 21 Aug 2012 11:00:00 +0900</pubDate>
+      <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
         url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20120821.dmg"
 		length="11128189"
         sparkle:version="20120821"
         sparkle:shortVersionString="7.3"
 		sparkle:dsaSignature="MCwCFADU6fDIjvHavX7DnVbPfDUFsHN4AhQt9U2F6JV82mtQhrrCTn9hUtbKIg=="
-        sparkle:minimumSystemVersion="10.7"
         />
     </item>
   </channel>
