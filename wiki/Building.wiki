@@ -17,9 +17,9 @@ https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/macvim-k
 
 https://github.com/splhack/homebrew-splhack
 
-* https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/cmigemo.rb
-* https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/ctags-objc-ja.rb
-* https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/macvim-kaoriya.rb
+  * https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/cmigemo.rb
+  * https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/ctags-objc-ja.rb
+  * https://github.com/splhack/homebrew-splhack/blob/master/Library/Formula/macvim-kaoriya.rb
 
 ビルド
 
