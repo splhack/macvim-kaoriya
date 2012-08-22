@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.3 (20120821)</title>
+      <title>MacVim-KaoriYa 7.3 (20120823)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -55,16 +55,17 @@
 	<li>Vim 7.3.633
 	<li><a href="http://www.kaoriya.net/news/2012/20120818">香り屋パッチ 20120818版</a>
 	<li>Mountain Lionのデフォルトに合わせて、+python/dynのリンク対象を2.7に、+perl/dynのリンク対象を5.12に変更しました。
+	<li>TERM設定が反映されない不具合を修正しました。
 </ul>
       ]]></description>
-      <pubDate>Tue, 21 Aug 2012 11:00:00 +0900</pubDate>
+      <pubDate>Thu, 23 Aug 2012 08:00:00 +0900</pubDate>
       <sparkle:minimumSystemVersion>10.7</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20120821.dmg"
-		length="11128189"
-        sparkle:version="20120821"
+        url="http://macvim-kaoriya.googlecode.com/files/macvim-kaoriya-20120823.dmg"
+		length="11364007"
+        sparkle:version="20120823"
         sparkle:shortVersionString="7.3"
-		sparkle:dsaSignature="MCwCFADU6fDIjvHavX7DnVbPfDUFsHN4AhQt9U2F6JV82mtQhrrCTn9hUtbKIg=="
+		sparkle:dsaSignature="MC0CFExdaqcquEQJiFJTupul1MnJDxSUAhUAgO4eHKow2/4ODWy4AGRiApKv1+4="
         />
     </item>
   </channel>
