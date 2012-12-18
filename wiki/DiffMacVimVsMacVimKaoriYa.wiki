@@ -14,7 +14,7 @@
  * 実験版プロポーショナルフォント描画(実験的レンダラ不使用時のみ) macproportionalfont
  * perl/python/rubyのダイナミックローディング
  * ruby1.8/1.9同時対応
- * shared library(gettext/iconv/ncurses/readline/migemo/vimproc)同梱
+ * shared library(gettext/migemo)同梱
  * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
  * ctags同梱
  * newrw scp使用時のパスワード用ダイアログスクリプト同梱
@@ -35,7 +35,7 @@
  * Gauche由来の文字コード判定ルーチン
  * perl/python/rubyのダイナミックローディング
  * ruby1.8/1.9同時対応
- * shared library(gettext/iconv/ncurses/readline/migemo/vimproc)同梱
+ * shared library(gettext/migemo)同梱
  * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
  * ctags同梱
 
