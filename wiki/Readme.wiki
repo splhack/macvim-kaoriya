@@ -208,7 +208,7 @@ inoremap <silent> <C-j> <C-^>
 
 
 ----
-== +perl / +python / +ruby ==
+== +perl / +python / +python3 / +ruby ==
 
 デフォルトで10.8 Mountain Lionまたは10.7 Lionの標準パスからperl/python/rubyのdylibを動的に読み込みます。
 
@@ -217,10 +217,11 @@ inoremap <silent> <C-j> <C-^>
 {{{
 let $PERL_DLL = "/usr/local/lib/perl5/5.12.0/darwin-2level/CORE/libperl.dylib"
 let $PYTHON_DLL = "/usr/local/lib/libpython2.7.dylib"
+let $PYTHON3_DLL="/usr/local/Cellar/python3/3.3.0/Frameworks/Python.framework/Versions/3.3/Python"
 let $RUBY_DLL = "/usr/local/lib/libruby.1.8.dylib"
 }}}
 
-のように指定します。20120821版以降perl5.12.x, python2.7, python3.2, ruby1.9.x, ruby1.8.xと互換となります。
+のように指定します。20121214版以降perl5.12.x, python2.7, python3.3, ruby1.9.x, ruby1.8.xと互換性があります。
 
 非互換のものは[Building ソースコードからビルドする]ことで使用できます。
 
