@@ -11,7 +11,7 @@ git checkout -b master origin/master
 }}}
 
 https://github.com/b4winckler/macvim/wiki/Building や
-https://github.com/splhack/homebrew-splhack/blob/master/macvim-kaoriya.rb#L18-29 を参照
+https://github.com/splhack/homebrew-splhack/blob/master/macvim-kaoriya.rb を参照
 
 = !HomeBrewでビルドする =
 
