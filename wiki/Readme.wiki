@@ -208,20 +208,21 @@ inoremap <silent> <C-j> <C-^>
 
 
 ----
-== +perl / +python / +python3 / +ruby ==
+== +perl / +python / +python3 / +ruby / +lua ==
 
-デフォルトで10.8 Mountain Lionまたは10.7 Lionの標準パスからperl/python/rubyのdylibを動的に読み込みます。
+デフォルトで10.8 Mountain Lionまたは10.7 Lionの標準パスからperl/python/ruby/luaのdylibを動的に読み込みます(Luaは標準パスに存在しないため /usr/local/lib/liblua.dyld から動的に読み込みます。
 
-!MacPortsなどのdylibを使用したい場合は .vimrc にて
+!Homebrewなどのdylibを使用したい場合は .vimrc にて
 
 {{{
 let $PERL_DLL = "/usr/local/lib/perl5/5.12.0/darwin-2level/CORE/libperl.dylib"
 let $PYTHON_DLL = "/usr/local/lib/libpython2.7.dylib"
 let $PYTHON3_DLL="/usr/local/Cellar/python3/3.3.0/Frameworks/Python.framework/Versions/3.3/Python"
 let $RUBY_DLL = "/usr/local/lib/libruby.1.8.dylib"
+let $LUA_DLL="/usr/local/Cellar/lua52/5.2.1/lib/liblua.dylib"
 }}}
 
-のように指定します。20121214版以降perl5.12.x, python2.7, python3.3, ruby1.9.x, ruby1.8.xと互換性があります。
+のように指定します。20130712版以降perl5.12.x, python2.7, python3.3, ruby2.0.x, ruby1.8.x, lua 5.1.x, lua 5.2.x, luajit 2.0.2と互換性があります。
 
 非互換のものは[Building ソースコードからビルドする]ことで使用できます。
 
