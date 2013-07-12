@@ -17,7 +17,7 @@
 == Vim.app ==
 
   * Vimオリジナルソースコードに含まれたCarbon APIによるGUIアプリケーション
-  * 香り屋パッチなどを追加した!PrivatePortfile [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]
+  * ~~香り屋パッチなどを追加した!PrivatePortfile [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]~~
   * ~~Mac OS X ネイティブGUIアプリケーションとして一番歴史が長い。~~
   * ~~Mac OS X で gvimと言ったらこれを指す場合が多い(kaoriya.net配布版gvim=Vim.app 6.2など)~~
 
@@ -26,8 +26,8 @@
   * Cocoa APIによるGUIアプリケーション
   * [http://code.google.com/p/vim-cocoa/ http://code.google.com/p/vim-cocoa/]
   * ソース [http://github.com/jjgod/vim-cocoa http://github.com/jjgod/vim-cocoa] (旧[http://repo.or.cz/w/vim-cocoa.git http://repo.or.cz/w/vim-cocoa.git])
-  * 香り屋パッチなどを追加した!PrivatePortfile(+cocoa) [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]
-  * Leopard以降のCore Text APIを使用している。描画速度が一番速いと思われる。!MacVimのCore Text branchより安定している。
+  * ~~香り屋パッチなどを追加した!PrivatePortfile(+cocoa) [http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72 http://lapangan.net/darwinports/index.php?PrivatePortfile%2FVim72]~~
+  * Leopard以降のCore Text APIを使用している。描画速度が一番速いと思われる。~~!MacVimのCore Text branchより安定している。~~
   * !MacVim vs vim-cocoa [http://groups.google.co.jp/group/vim_mac/browse_thread/thread/c16868aa7dcad59b/9563a5f3302784fb?#9563a5f3302784fb http://groups.google.co.jp/group/vim_mac/browse_thread/thread/c16868aa7dcad59b/9563a5f3302784fb?#9563a5f3302784fb]
 
 == X11 GUI ==
