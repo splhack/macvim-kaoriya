@@ -210,7 +210,7 @@ inoremap <silent> <C-j> <C-^>
 ----
 == +perl / +python / +python3 / +ruby / +lua ==
 
-デフォルトで10.8 Mountain Lionまたは10.7 Lionの標準パスからperl/python/ruby/luaのdylibを動的に読み込みます(Luaは標準パスに存在しないため /usr/local/lib/liblua.dyld から動的に読み込みます。
+デフォルトで10.8 Mountain Lionまたは10.7 Lionの標準パスからperl/python/ruby/luaのdylibを動的に読み込みます(Luaは標準パスに存在しないため /usr/local/lib/liblua.dyld から動的に読み込みます)。
 
 !Homebrewなどのdylibを使用したい場合は .vimrc にて
 
