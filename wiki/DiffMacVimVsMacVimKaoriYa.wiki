@@ -12,8 +12,8 @@
  * インラインIMカーソル位置対策
  * インラインIM変換対象文字列アンダーラインの二重ライン化
  * 実験版プロポーショナルフォント描画(実験的レンダラ不使用時のみ) macproportionalfont
- * perl/python/rubyのダイナミックローディング
- * ruby1.8/1.9同時対応
+ * perl/python/ruby/luaのダイナミックローディング
+ * ruby1.8/2.0同時対応
  * shared library(gettext/migemo)同梱
  * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
  * ctags同梱
@@ -33,8 +33,8 @@
  * Vim日本語ドキュメントの統合(http://www.kaoriya.net/vimdoc_j/)
  * !MacVim.app(GUI)実行時用オプション(imdisableactivateなど)の追加
  * Gauche由来の文字コード判定ルーチン
- * perl/python/rubyのダイナミックローディング
- * ruby1.8/1.9同時対応
+ * perl/python/ruby/luaのダイナミックローディング
+ * ruby1.8/2.0同時対応
  * shared library(gettext/migemo)同梱
  * migemo辞書同梱(migemo検索は!KaoriYa版パッチによる機能)
  * ctags同梱
