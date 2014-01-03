@@ -61,10 +61,10 @@
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
         url="https://github.com/splhack/macvim/releases/download/20140102/macvim-kaoriya-20140102.dmg"
-        length="11647367"
+        length="11789032"
         sparkle:version="20140102"
         sparkle:shortVersionString="7.4"
-        sparkle:dsaSignature="MCwCFCNVu7j/Xd7ABVTtgTEdXF86q6A7AhQOuBinDBxRjnfRSJRR8uDfdJcMiQ=="
+		sparkle:dsaSignature="MCwCFFJBj0paCYRxy6LlmqJKLXlKC3S/AhR09dDrJ0ERvXcJmskDsrOpshUKXg=="
         />
     </item>
   </channel>
