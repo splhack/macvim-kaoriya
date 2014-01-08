@@ -291,3 +291,18 @@ alias ctags='/Applications/MacVim.app/Contents/MacOS/ctags "$@"'
 {{{
 let tlist_objc_settings='objc;P:protocols;i:interfaces;I:implementations;M:instance methods;C:implementation methods;Z:protocol methods'
 }}}
+
+----
+== 印刷 ==
+
+デフォルトの印刷用日本語フォントは次のように設定されています。
+
+{{{
+set printmbfont=r:HiraMinProN-W3,b:HiraMinProN-W6
+}}}
+
+printmbfontには、ヒラギノフォントや小塚フォントなどのOTFを指定できます。:help printmbfontを参照。
+
+{{{
+set printmbfont=r:KozGoPro-Light
+}}}
