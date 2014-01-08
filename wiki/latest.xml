@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20140106)</title>
+      <title>MacVim-KaoriYa 7.4 (20140107)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -54,17 +54,17 @@
     <li>MacVim snapshot 72
     <li>Vim 7.4.133
     <li><a href="http://www.kaoriya.net/">香り屋パッチ 20131117版</a>
-    <li>日本語メッセージが表示されるように修正しました
+    <li>印刷時の文字化けを対策
 </ul>
       ]]></description>
-      <pubDate>Mon, 6 Jan 2014 09:00:00 -0800</pubDate>
+      <pubDate>Tue, 7 Jan 2014 20:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim/releases/download/20140106/macvim-kaoriya-20140106.dmg"
-        length="11860423"
+        url="https://github.com/splhack/macvim/releases/download/20140107/macvim-kaoriya-20140107.dmg"
+        length="11998199"
         sparkle:version="20140106"
         sparkle:shortVersionString="7.4"
-		sparkle:dsaSignature="MCwCFAoWl2TygZhg8Cmph8KWdL5PeZf3AhRdpoa3Us7/w583vqc2aY44bLF26w=="
+		sparkle:dsaSignature="MCwCFFc+c+9kA97M409xds5zkls5T8+bAhRrSslEMmGdAJYd8u+t7x0ztUNyNQ=="
         />
     </item>
   </channel>
