@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20140107)</title>
+      <title>MacVim-KaoriYa 7.4 (20140501)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -51,20 +51,21 @@
 
 <ul>
     <li>OS X 10.8/10.9対応 (<font color="red">OS X 10.7には対応していません</font>)
-    <li>MacVim snapshot 72
-    <li>Vim 7.4.133
-    <li><a href="http://www.kaoriya.net/">香り屋パッチ 20131117版</a>
-    <li>印刷時の文字化けを対策
+    <li>MacVim snapshot 73
+    <li>Vim 7.4.258
+    <li><a href="http://www.kaoriya.net/">香り屋パッチ 20140330版</a>
+		<li>if_python3のバイナリ互換バージョンをPython 3.4に更新 (if_pythonはOS X 10.8/10.9標準2.7のままです)
+	<li>if_ruby19のバイナリ互換バージョンをRuby 2.1に更新 (if_rubyはOS X 10.8標準1.8のままです。OS X 10.9ではRuby 1.8か2.1をインストールし、RUBY_DLLを設定する必要があります)
 </ul>
       ]]></description>
-      <pubDate>Tue, 7 Jan 2014 20:00:00 -0800</pubDate>
+      <pubDate>Thu, 1 May 2014 13:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim/releases/download/20140107/macvim-kaoriya-20140107.dmg"
-        length="11998199"
-        sparkle:version="20140106"
+        url="https://github.com/splhack/macvim/releases/download/20140501/macvim-kaoriya-20140501.dmg"
+        length="11816796"
+        sparkle:version="20140501"
         sparkle:shortVersionString="7.4"
-		sparkle:dsaSignature="MCwCFFc+c+9kA97M409xds5zkls5T8+bAhRrSslEMmGdAJYd8u+t7x0ztUNyNQ=="
+		sparkle:dsaSignature="MCsCE1CgBtkv3P3dGa+4kNi8CJJQB70CFDy6GpWz1YIrR/M1ZMgJuYXydeF3"
         />
     </item>
   </channel>
