@@ -17,13 +17,10 @@ https://github.com/splhack/homebrew-splhack/blob/master/macvim-kaoriya.rb を参
 
 https://github.com/splhack/homebrew-splhack
 
-  * https://github.com/splhack/homebrew-splhack/blob/master/cmigemo.rb
-  * https://github.com/splhack/homebrew-splhack/blob/master/ctags-objc-ja.rb
-  * https://github.com/splhack/homebrew-splhack/blob/master/macvim-kaoriya.rb
-
 ビルド
 
 {{{
+brew tap splhack/splhack
 brew install python3 ruby lua lua52 luajit
 brew install --HEAD macvim-kaoriya
 }}}
