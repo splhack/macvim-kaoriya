@@ -24,5 +24,6 @@ https://github.com/splhack/homebrew-splhack
 ビルド
 
 {{{
+brew install python3 ruby lua lua52 luajit
 brew install --HEAD macvim-kaoriya
 }}}
