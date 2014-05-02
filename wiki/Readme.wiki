@@ -30,9 +30,11 @@
 ----
 == vimrc/gvimrc ==
 
-GUIに関係しない設定、たとえば tabstop, shiftwidth, expandtab, wrap, showmatch などの設定はホームフォルダ/.vimrcにて設定することをオススメします。
+GUIに関係しない設定、たとえば tabstop, shiftwidth, expandtab, wrap, showmatch などの設定はホームフォルダ/.vimrc(~/.vimrc)にて設定します。
 
-GUIに関する設定、たとえば columns, lines, guioptions, transparency, antialias, colorscheme などの設定は ホームフォルダ/.gvimrcにて設定することをオススメします。
+GUIに関する設定、たとえば columns, lines, guioptions, transparency, antialias, colorscheme などの設定は ホームフォルダ/.gvimrc(~/.gvimrc)にて設定します。
+
+*!MacVim.app内のファイルを変更してしまうと、!MacVim.appアップデート時にすべての変更が失われます。~/.vimrcと~/.gvimrcを使用してください。*
 
   # !MacVim.app/Contents/Resources/vim/vimrc
   # ホームフォルダ/.vimrc または `_`vimrc
@@ -120,8 +122,7 @@ set transparency=10    (不透明 0〜100 透明)
 ----
 == 言語環境 ==
 
-Finderから!MacVimアイコンの「情報を見る」「言語」で日本語のチェックを外すと、英語環境で起動します。
-
+OS Xの言語設定が日本語の場合、日本語環境で起動し、それ以外の時は英語環境で起動します。
 
 ----
 == 文字コード判別 ==
@@ -210,7 +211,7 @@ inoremap <silent> <C-j> <C-^>
 ----
 == +perl / +python / +python3 / +ruby / +lua ==
 
-デフォルトで10.8 Mountain Lionまたは10.7 Lionの標準パスからperl/python/ruby/luaのdylibを動的に読み込みます(Luaは標準パスに存在しないため /usr/local/lib/liblua.dyld から動的に読み込みます)。
+デフォルトで10.8 Mountain Lionまたは10.9 Mavericksの標準パスからperl/python/rubyのdylibを動的に読み込みます。Luaは内蔵luajitのdylibを動的に読み込みます。
 
 !Homebrewなどのdylibを使用したい場合は .vimrc にて
 
@@ -222,7 +223,7 @@ let $RUBY_DLL = "/usr/local/lib/libruby.1.8.dylib"
 let $LUA_DLL="/usr/local/Cellar/lua52/5.2.1/lib/liblua.dylib"
 }}}
 
-のように指定します。20130712版以降perl5.12.x, python2.7, python3.3, ruby2.0.x, ruby1.8.x, lua 5.1.x, lua 5.2.x, luajit 2.0.2と互換性があります。
+のように指定します。20140501版以降perl5.12.x, python2.7, python3.4, ruby2.1.x, ruby1.8.x, lua 5.1.x, lua 5.2.x, luajit 2.0.3と互換性があります。
 
 非互換のものは[Building ソースコードからビルドする]ことで使用できます。
 
