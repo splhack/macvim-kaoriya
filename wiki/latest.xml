@@ -50,6 +50,7 @@
       <description><![CDATA[
 
 <ul>
+	<li><b>.un~ファイルについて「<a href="http://www.kaoriya.net/blog/2014/03/30/">Vimが変なファイルを作るようになった</a>」</b>
     <li>OS X 10.8/10.9対応 (<font color="red">OS X 10.7には対応していません</font>)
     <li>MacVim snapshot 73
     <li>Vim 7.4.258
