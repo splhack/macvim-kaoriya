@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20140731)</title>
+      <title>MacVim-KaoriYa 7.4 (20140805)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -60,14 +60,14 @@
 	<li>if_rubyのバイナリ互換バージョン: OS X 10.9標準Ruby 2.0.x、およびRuby 2.1.x
 </ul>
       ]]></description>
-      <pubDate>Thu, 31 Jul 2014 10:00:00 -0800</pubDate>
+      <pubDate>Tue, 5 Aug 2014 10:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim/releases/download/20140731/macvim-kaoriya-20140731.dmg"
-        length="11994186"
-        sparkle:version="20140731"
+        url="https://github.com/splhack/macvim/releases/download/20140805/macvim-kaoriya-20140805.dmg"
+        length="12055781"
+        sparkle:version="20140805"
         sparkle:shortVersionString="7.4"
-		sparkle:dsaSignature="MCwCFBB/q+NaUEaGVNAntJItvRfKc4BvAhROmr5ytoIDjdGFODhXabn0hA0Anw=="
+		sparkle:dsaSignature="MCwCFBEXi4YwahwJWqMeoKWFFoMPigPJAhQ3kEEmJtKudwOckySQGaRZOVM5/Q=="
         />
     </item>
   </channel>
