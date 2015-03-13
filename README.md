@@ -6,8 +6,6 @@
 
 **またMacVimか** と嘆かれる前に、[GitHub Issues](https://github.com/splhack/macvim-kaoriya/issues)や[twitter](http://twitter.com/splhack)などに報告いただけますと大変うれしいです。
 
-**Mac OS X 10.8/10.9/10.10用バイナリは [GitHubリリース](https://github.com/splhack/macvim-kaoriya/releases/latest) からダウンロードできます。**
-
 ## MacVim ##
 
 マルチウインドウが使えるMac OS XアプリケーションのVim(gVim)です。GUIを担当するMacVimと、Vim本体から構成されています。Vim本体はコンソールアプリケーションとしても使用できます。
