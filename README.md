@@ -28,7 +28,7 @@ MacVimに対して、香り屋パッチの統合、ローカライズ、MacVim�
 
 ## アップデート ##
 
-MacVimに組み込まれた[Sparkle](http://sparkle.andymatuschak.org/)によるアプリケーション自動更新機能があり、[Sparkle用のfeed](http://macvim-kaoriya.googlecode.com/svn/wiki/latest.xml)を自動または手動で確認して、アプリケーションを更新することができます。
+MacVimに組み込まれた[Sparkle](http://sparkle.andymatuschak.org/)によるアプリケーション自動更新機能があり、[Sparkle用のfeed](https://raw.githubusercontent.com/splhack/macvim-kaoriya/master/latest.xml)を自動または手動で確認して、アプリケーションを更新することができます。
 
 手動で行う場合は、インストール時と同じくMacVimアイコンをアプリケーションフォルダにドラッグして、上書きコピーすれば完了です。
 
