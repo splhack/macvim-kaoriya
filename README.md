@@ -16,9 +16,9 @@
 
 ## MacVim-KaoriYa ##
 
-MacVimに対して、香り屋パッチの統合、ローカライズ、MacVim固有の設定、日本語文字コード自動判別、必要なshared library、Perl/Python/Rubyのdynamic loading、Objective-C対応ctags、などを追加しています。[詳しくはこちらのページにまとめてあります](DiffMacVimVsMacVimKaoriYa.md)。インストールしてすぐ使えるのが目標です。もちろんTerminal.app、iTerm.app上で動くコンソール版Vimとしても使用できます。
+MacVimに対して、香り屋パッチの統合、ローカライズ、MacVim固有の設定、日本語文字コード自動判別、必要なshared library、Perl/Python/Rubyのdynamic loading、Objective-C対応ctags、などを追加しています。[詳しくはこちらのページにまとめてあります](https://github.com/splhack/macvim-kaoriya/wiki/DiffMacVimVsMacVimKaoriYa)。インストールしてすぐ使えるのが目標です。もちろんTerminal.app、iTerm.app上で動くコンソール版Vimとしても使用できます。
 
-詳しくはドキュメント「[はじめにお読みください](Readme.md)」をご覧ください
+詳しくはドキュメント「[はじめにお読みください](https://github.com/splhack/macvim-kaoriya/wiki/Readme)」をご覧ください
 
 ## インストール ##
 
@@ -32,8 +32,8 @@ MacVimに組み込まれた[Sparkle](http://sparkle.andymatuschak.org/)による
 
 ## ドキュメント ##
 
-[はじめにお読みください](Readme.md)
+[はじめにお読みください](https://github.com/splhack/macvim-kaoriya/wiki/Readme)
 
 ## ソースコードからのビルド ##
 
-[ビルド方法のページ](Building.md)
+[ビルド方法のページ](https://github.com/splhack/macvim-kaoriya/wiki/Building)
