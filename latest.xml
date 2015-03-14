@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20150304)</title>
+      <title>MacVim-KaoriYa 7.4 (20150314)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -53,22 +53,28 @@
 	<li>OS X 10.8/10.9/10.10対応
 	<li>MacVim snapshot 74
 	<li>Vim 7.4.648
-    <li><a href="http://www.kaoriya.net/">香り屋パッチ 20150301版</a>
+	<li><a href="http://www.kaoriya.net/">香り屋パッチ 20150301版</a>
 	<li>if_pythonのバイナリ互換バージョン: OS X 10.9/10.10標準Python 2.7.x
 	<li>if_python3のバイナリ互換バージョン: Python 3.4.x
 	<li>if_rubyのバイナリ互換バージョン: OS X 10.9/10.10標準Ruby 2.0.x、およびRuby 2.1.x
 	<li>if_perlのバイナリ互換バージョン: OS X 10.9/10.10標準Perl 5.16
 	<li>if_luaのバイナリ互換バージョン: LuaJIT 2.0.3, Lua 5.1.x
+	<li>Sparkleフィードをcode.googleからgithubに変更
+	<li>Yosemiteでの日本語入力時シフト＋スペース対策をdisableにするためのuser defaultキーを追加しました。
+	<ul>
+		<li>Google日本語入力で、スペース入力を半角に設定している場合は、コマンドラインで以下のようにMMIgnoreShiftSpaceキーをFALSEに設定してください。
+		<pre>$ defaults write org.vim.MacVim MMIgnoreShiftSpace -bool FALSE</pre>
+	</ul>
 </ul>
       ]]></description>
-      <pubDate>Wed, 4 Mar 2015 11:00:00 -0800</pubDate>
+      <pubDate>Sat, 14 Mar 2015 01:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim/releases/download/20150304/macvim-kaoriya-20150304.dmg"
-        length="12467441"
-        sparkle:version="20150304"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20150314/macvim-kaoriya-20150314.dmg"
+        length="12467769"
+        sparkle:version="20150314"
         sparkle:shortVersionString="7.4"
-		sparkle:dsaSignature="MCwCFAX2hKwMgYIz7e22o9hIm5rzKo6tAhR3E/X9ZFdZR+aeubcnkPe7X6mYWw=="
+        sparkle:dsaSignature="MCwCFCz8wm/NigSWWqunmazf+jPfPRvLAhQGItA4XLcddytNfy+kacR7+a3b8A=="
         />
     </item>
   </channel>
