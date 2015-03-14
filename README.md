@@ -2,10 +2,6 @@
 
 [![](http://splhack.github.io/macvim-kaoriya/macvim-kaoriya-s.png)](http://splhack.github.io/macvim-kaoriya/macvim-kaoriya.jpg)
 
-## お知らせ ##
-
-**またMacVimか** と嘆かれる前に、[GitHub Issues](https://github.com/splhack/macvim-kaoriya/issues)や[twitter](http://twitter.com/splhack)などに報告いただけますと大変うれしいです。
-
 ## MacVim ##
 
 マルチウインドウが使えるMac OS XアプリケーションのVim(gVim)です。GUIを担当するMacVimと、Vim本体から構成されています。Vim本体はコンソールアプリケーションとしても使用できます。
