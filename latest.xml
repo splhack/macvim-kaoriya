@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20150425)</title>
+      <title>MacVim-KaoriYa 7.4 (20150427)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -51,7 +51,7 @@
 
 <ul>
 	<li>OS X 10.8/10.9/10.10対応
-	<li>MacVim snapshot 74
+	<li><a href="https://github.com/macvim-dev/macvim/releases/tag/snapshot-75">MacVim snapshot 75</a>に追従
 	<li>Vim 7.4.712
 	<li><a href="http://www.kaoriya.net/">香り屋パッチ 20150301版</a>
 	<li>if_pythonのバイナリ互換バージョン: OS X 10.9/10.10標準Python 2.7.x
@@ -59,17 +59,16 @@
 	<li>if_rubyのバイナリ互換バージョン: OS X 10.9/10.10標準Ruby 2.0.x、およびRuby 2.2.x
 	<li>if_perlのバイナリ互換バージョン: OS X 10.9/10.10標準Perl 5.16
 	<li>if_luaのバイナリ互換バージョン: LuaJIT 2.0.3, Lua 5.1.x, Lua 5.2.x
-	<li>Yosemiteフルスクリーン不具合対策パッチを追加
 </ul>
       ]]></description>
-      <pubDate>Sat, 25 Apr 2015 21:00:00 -0800</pubDate>
+      <pubDate>Mon, 27 Apr 2015 10:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20150425/macvim-kaoriya-20150425.dmg"
-        length="12473699"
-        sparkle:version="20150425"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20150427/macvim-kaoriya-20150427.dmg"
+        length="14024438"
+        sparkle:version="20150427"
         sparkle:shortVersionString="7.4"
-		sparkle:dsaSignature="MCwCFELd1bIM4+SyC3b/c1c1XqdyRl3HAhQbO7Dz8i4BZw64ALvS/4HDIY6GSQ=="
+		sparkle:dsaSignature="MCwCFEi6s1bBTfDMdr0BadzvNzVVgx0nAhQcLUFhfuHgqTcapNvcnLJazpbEtw=="
         />
     </item>
   </channel>
