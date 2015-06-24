@@ -41,7 +41,7 @@
     -->
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20150429)</title>
+      <title>MacVim-KaoriYa 7.4 (20150623)</title>
       <!--
       <sparkle:releaseNotesLink>
           http://b4winckler.github.com/test/index.html
@@ -51,8 +51,8 @@
 
 <ul>
 	<li>OS X 10.8/10.9/10.10対応
-	<li><a href="https://github.com/macvim-dev/macvim/releases/tag/snapshot-76">MacVim snapshot 76</a>に追従
-	<li>Vim 7.4.712
+	<li><a href="https://github.com/macvim-dev/macvim/releases/tag/snapshot-76">MacVim snapshot 76</a>
+	<li>Vim 7.4.752
 	<li><a href="http://www.kaoriya.net/">香り屋パッチ 20150301版</a>
 	<li>if_pythonのバイナリ互換バージョン: OS X 10.9/10.10標準Python 2.7.x
 	<li>if_python3のバイナリ互換バージョン: Python 3.4.x
@@ -61,14 +61,14 @@
 	<li>if_luaのバイナリ互換バージョン: LuaJIT 2.0.3, Lua 5.1.x, Lua 5.2.x
 </ul>
       ]]></description>
-      <pubDate>Wed, 29 Apr 2015 20:00:00 -0800</pubDate>
+      <pubDate>Tue, 23 Jun 2015 13:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20150429/macvim-kaoriya-20150429.dmg"
-        length="14189405"
-        sparkle:version="20150429"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20150623/macvim-kaoriya-20150623.dmg"
+        length="15218797"
+        sparkle:version="20150623"
         sparkle:shortVersionString="7.4"
-		sparkle:dsaSignature="MCwCFCyvnQp6WZq/8HG7fDZWr0uba4rHAhR92CWKDU0P5jFsC/qgTnHFYNokOw=="
+        sparkle:dsaSignature="MCwCFCDcFiU7Bg2TbLlaGoE5ZZ4qZLhEAhR3HWZ4rQjkTE8HDGxsZhztXTkNDQ=="
         />
     </item>
   </channel>
