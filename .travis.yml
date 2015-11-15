@@ -1,0 +1,50 @@
+language: c
+
+os:
+  - osx
+
+osx_image: xcode7.1
+
+compiler:
+  - clang
+
+sudo: false
+
+script:
+  - true
+
+before_deploy:
+  - brew update || brew update
+  - brew install lua51
+  - brew install lua
+  - brew install luajit
+  - brew install python3
+  - brew install ruby
+  - brew install gettext
+  - brew tap universal-ctags/universal-ctags
+  - brew install --HEAD universal-ctags
+  - brew tap splhack/splhack
+  - brew install --HEAD cmigemo-mk
+  - brew list --versions
+  - brew install --HEAD -vd macvim-kaoriya --with-binary-release
+  - git clone --depth=1 --branch=master https://github.com/splhack/macvim.git macvim-git
+  - mkdir -p MacVim-KaoriYa/KaoriYa
+  - cp macvim-git/README.txt MacVim-KaoriYa
+  - cp macvim-git/README_KaoriYa.txt MacVim-KaoriYa/KaoriYa
+  - cp macvim-git/CHANGES_KaoriYa.txt MacVim-KaoriYa/KaoriYa
+  - cp -r macvim-git/src/MacVim/deploy/readme.rtfd MacVim-KaoriYa/はじめにお読みください.rtfd
+  - tar -C /usr/local/Cellar/macvim-kaoriya/HEAD -cf - MacVim.app|tar -C MacVim-KaoriYa -xf -
+  - macvim-git/src/create-dmg/create-dmg --volname "MacVim-KaoriYa $TRAVIS_TAG" --volicon macvim-git/src/MacVim/icons/MacVim.icns --background macvim-git/src/MacVim/deploy/background.png --window-size 500 500 --icon-size 96 --text-size 13 --icon KaoriYa 322 384 --icon MacVim.app 116 208 --icon README.txt 178 384 --icon はじめにお読みください.rtfd 240 86 --hide-extension はじめにお読みください.rtfd --app-drop-link 384 208 MacVim-KaoriYa-$TRAVIS_TAG.dmg MacVim-KaoriYa
+
+deploy:
+  provider: releases
+  api_key:
+    secure: XAkrfU6uUI0GhGCDvxR7Kdx6KcGjPlAWX1P5X7dDRORsfcv22D9fPnkSOB7Kou1VcA+3BH7cdv9EzD9KWUZ86xz2fg2aJ5h1iem+aApqD7G+ER173g4bkjkBA7GhwE41jBoK2Tp/vZ6SypyG7ublKNoYBaFSdCqvf3wKNQvNCqiktw7DvAVd/m3w50AeM0rGvUKAh2RmDz3OVxiMHfBYR67GHicR5bBvNnwg6QJFRSmfVrJyEsD96RfCQpzNIqXB0Le78CxE9B4TdeLV+a01h86m7cIOQeLAsnGzO2WfTwe7djgkXMID/kAbc8aR71RqgvmkU2w2WxyHs4d55YVhcFFODYL7ttoWc6R8V5w653TywV/77I9pfapnynZPbYwyeONFXRMv8GsCd5UJSESA69kiaeSqTzI0YZ3fWO8twZgefp/AVXX/WtV6gXqllLw+9fFKJYfVHeaU+/D9d88Y80s0pZSn2SZ56ICEmrtmDr6c4U8HC2oaYWZefa3fMN0P0e3E/NbcD/eZbeEW/yF6G2hWicaax6RXcNnFkK4zV/YOfbo6BIIRxnhYRRCL1GAJS33gH6EtQOgXwroWCBZA28Tf/4mDiqaP9tnfBLa8Gwqg0zdFoNu0r/krj9ywqzlSr1J0otx4nHdEHFpQ5NvBoZpjEHYa7B0eXAO9RChqPuI=
+  file: MacVim-KaoriYa-$TRAVIS_TAG.dmg
+  skip_cleanup: true
+  on:
+    all_branches: true
+    tags: true
+    repo: splhack/macvim-kaoriya
+
+# vim:set sts=2 sw=2 tw=0 et:
