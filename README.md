@@ -30,6 +30,6 @@ MacVimに組み込まれた[Sparkle](http://sparkle.andymatuschak.org/)による
 
 [はじめにお読みください](https://github.com/splhack/macvim-kaoriya/wiki/Readme)
 
-## ソースコードからのビルド [![Build Status](https://travis-ci.org/splhack/macvim.svg?branch=master)](https://travis-ci.org/splhack/macvim) ##
+## ソースコードからのビルド [![Build Status](https://travis-ci.org/splhack/macvim.svg?branch=master)](https://travis-ci.org/splhack/macvim)[![Build Status](https://travis-ci.org/splhack/macvim-kaoriya.svg?branch=master)](https://travis-ci.org/splhack/macvim-kaoriya) ##
 
 [ビルド方法のページ](https://github.com/splhack/macvim-kaoriya/wiki/Building)
