@@ -1,6 +1,6 @@
 「**[MacVim](http://code.google.com/p/macvim/) ＋ [香り屋さんのパッチ](http://www.kaoriya.net/software/vim/) ＋ なるべく日本語化 ＝ 香り屋さんのWindows版の使い勝手に近いMacVim**」を**勝手に**目指すプロジェクトです。
 
-[![](http://splhack.github.io/macvim-kaoriya/macvim-kaoriya-s.png)](http://splhack.github.io/macvim-kaoriya/macvim-kaoriya.jpg)
+[![](https://splhack.github.io/macvim-kaoriya/macvim-kaoriya-s.png)](https://splhack.github.io/macvim-kaoriya/macvim-kaoriya.jpg)
 
 ## MacVim ##
 
