@@ -2,74 +2,36 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"> 
   <channel>
     <title>MacVim-KaoriYa 7.4</title>
-    <link>http://macvim-kaoriya.googlecode.com/svn/wiki/latest.xml</link>
+    <link>https://raw.githubusercontent.com/splhack/macvim-kaoriya/master/latest.xml</link>
     <description>MacVim-KaoriYa 7.4</description>
 
-    <!--
-    To add a new release:
-
-    * add a new <item> below (copy an old one)
-    * Adapt the <title>
-    * Adapt the <description>
-    * Adapt the <pubDate> (format 'Day, dd Mon yyyy hh:mm CET')
-    * Adapte <enclosure>, make sure to update the url, length, saprkle:version
-      and sparkle:shortVersionString attributes.
-
-    Sparkle honors the following user defaults:
-
-    * SUFeedURL overrides the value in Info.plist (if we want to offer several
-      appcasts in the preferences one day ("latest", "stable" for example).
-
-      This means that for testing you can do
-
-          defaults read org.vim.MacVim SUFeedURL  # note this down
-          defaults write org.vim.MacVim SUFeedURL file:///Users/you/testcast.xml
-            # !!! note the three '/' after 'file:
-          # test test test
-          defaults write org.vim.MacVim SUFeedURL previousvalue
-          # or, to use some default setting for the url,
-          defaults delete org.vim.MacVim SUFeedURL
-
-    Sparkle usually assumes a naming scheme of name_versionnumber.tar.bz2 .
-    Instead, you can also provide a sparkle:version="2.0_rc2" attribute on
-    the enclosure and name the package as you like. You can (and should) also
-    provide a sparkle:shortVersionString="User-facing version string"
-    attribute that corresponds to CFBundleShortVersionString. Sparkle uses
-    CFBundleVersion to determine the current application version.
-
-    Sparkle supports updates in zip, tar, tbz, tgz, or dmg format.
-    -->
-
     <item>
-      <title>MacVim-KaoriYa 7.4 (20150707)</title>
-      <!--
-      <sparkle:releaseNotesLink>
-          http://b4winckler.github.com/test/index.html
-      </sparkle:releaseNotesLink>
-      -->
+      <title>MacVim-KaoriYa 7.4 (20151115)</title>
       <description><![CDATA[
 
-<ul>
-	<li>OS X 10.8/10.9/10.10対応
-	<li><a href="https://github.com/macvim-dev/macvim/releases/tag/snapshot-77">MacVim snapshot 77</a>
-	<li>Vim 7.4.769
-	<li><a href="http://www.kaoriya.net/">香り屋パッチ 20150628版</a>
-	<li><a href="https://github.com/Shougo/vimproc.vim">vimproc</a>バイナリの同梱を復活させました。
-	<li>if_pythonのバイナリ互換バージョン: OS X 10.9/10.10標準Python 2.7.x
-	<li>if_python3のバイナリ互換バージョン: Python 3.4.x
-	<li>if_rubyのバイナリ互換バージョン: OS X 10.9/10.10標準Ruby 2.0.x、およびRuby 2.2.x
-	<li>if_perlのバイナリ互換バージョン: OS X 10.9/10.10標準Perl 5.16
-	<li>if_luaのバイナリ互換バージョン: LuaJIT 2.0.3, Lua 5.1.x, Lua 5.2.x
-</ul>
+<font color=red><b>インストール中に「アップデートエラー/アップデートのダウンロード中にエラーが発生しました。後ほど改めてお試しください。」と表示された場合は、自動アップデートはできません。<a href="https://github.com/splhack/macvim-kaoriya/releases/latest">最新版</a>を手動で上書きインストールしてください。</b></font>
+
+<pre>
+・OS X 10.9/10.10/10.11対応 (❗️10.8には非対応です)
+・MacVim snapshot 82 https://github.com/macvim-dev/macvim/releases/tag/snapshot-82
+・Vim 7.4.922
+・香り屋パッチ 20150926版 http://www.kaoriya.net/software/vim/
+・if_pythonのバイナリ互換バージョン: OS X 10.9/10.10/10.11標準Python 2.7.x
+・if_python3のバイナリ互換バージョン: Python 3.5.x
+・if_rubyのバイナリ互換バージョン: OS X 10.9/10.10/10.11標準Ruby 2.0.x、およびRuby 2.2.x
+・if_perlのバイナリ互換バージョン: OS X 10.9/10.10/10.11標準Perl 5.16
+・if_luaのバイナリ互換バージョン: LuaJIT 2.0.3, Lua 5.1.x, Lua 5.2.x
+
+</pre>
       ]]></description>
-      <pubDate>Tue, 7 Jul 2015 11:00:00 -0800</pubDate>
-      <sparkle:minimumSystemVersion>10.8</sparkle:minimumSystemVersion>
+      <pubDate>Sun, 15 Nov 2015 18:00:00 -0800</pubDate>
+      <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20150707/macvim-kaoriya-20150707.dmg"
-        length="14158673"
-        sparkle:version="20150707"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20151115/MacVim-KaoriYa-20151115.dmg"
+        length="13703923"
+        sparkle:version="20151115"
         sparkle:shortVersionString="7.4"
-        sparkle:dsaSignature="MCwCFBzAdeQV3ODSnsoGHOOw4kXmrvVGAhR+SnFvH6u8PgGjqt62YAsQYPKWzw=="
+	sparkle:dsaSignature="MCwCFHpVcI4PPY5khLWNRAqmLSHXSbXPAhRFveGaaozUNkxHSGOEU3Cx8kuQnQ=="
         />
     </item>
   </channel>
