@@ -6,7 +6,7 @@
     <description>MacVim-KaoriYa 7.4</description>
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20151116)</title>
+      <title>MacVim-KaoriYa 7.4 (20151117)</title>
       <description><![CDATA[
 
 <font color=red><b>インストール中に「アップデートエラー/アップデートのダウンロード中にエラーが発生しました。後ほど改めてお試しください。」と表示された場合は、自動アップデートはできません。<a href="https://github.com/splhack/macvim-kaoriya/releases/latest">最新版</a>を手動で上書きインストールしてください。</b></font>
@@ -22,18 +22,18 @@
 ・if_perlのバイナリ互換バージョン: OS X 10.9/10.10/10.11標準Perl 5.16
 ・if_luaのバイナリ互換バージョン: LuaJIT 2.0.3, Lua 5.1.x, Lua 5.2.x
 
-・vimproc同梱方法などを修正しました
+・Luaインターフェースの設定を修正しました
 
 </pre>
       ]]></description>
-      <pubDate>Mon, 16 Nov 2015 12:00:00 -0800</pubDate>
+      <pubDate>Tue, 17 Nov 2015 20:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20151116/MacVim-KaoriYa-20151116.dmg"
-        length="13724648"
-        sparkle:version="20151116"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20151117/MacVim-KaoriYa-20151117.dmg"
+        length="13725051"
+        sparkle:version="20151117"
         sparkle:shortVersionString="7.4"
-	sparkle:dsaSignature="MCwCFBs8sXehJQROrEonlYhdSNFiGar1AhQXkFk+5g34iKEk7x7nVT2FKifg5Q=="
+	sparkle:dsaSignature="MCwCFBIBUdGsjeNpubcPr7towWCQz4qrAhREux1FxADBvwsVo4TmRbs/T+C2PQ=="
         />
     </item>
   </channel>
