@@ -10,6 +10,9 @@ compiler:
 
 sudo: false
 
+env:
+  - VIM=/usr/local/Cellar/macvim-kaoriya/HEAD/MacVim.app/Contents/MacOS/Vim
+
 script:
   - true
 
@@ -27,6 +30,18 @@ before_deploy:
   - brew install --HEAD cmigemo-mk
   - brew list --versions
   - brew install --HEAD -vd macvim-kaoriya --with-binary-release
+  - brew uninstall cmigemo-mk
+  - brew uninstall universal-ctags
+  - brew uninstall gettext
+  - brew uninstall ruby
+  - brew uninstall python3
+  - brew uninstall luajit
+  - brew uninstall lua
+  - brew uninstall lua51
+  - $VIM -c lua 'print(\"MacVim\")' -c q|grep -q -w MacVim
+  - $VIM -c perl 'VIM::Msg(\"MacVim\")' -c q|grep -q -w MacVim
+  - $VIM -c py 'print(\"MacVim\")' -c q|grep -q -w MacVim
+  - $VIM -c ruby 'puts(\"MacVim\")' -c q|grep -q -w MacVim
   - git clone --depth=1 --branch=master https://github.com/splhack/macvim.git macvim-git
   - mkdir -p MacVim-KaoriYa/KaoriYa
   - cp macvim-git/README.txt MacVim-KaoriYa
