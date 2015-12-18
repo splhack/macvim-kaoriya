@@ -29,6 +29,8 @@ before_deploy:
   - brew tap splhack/splhack
   - brew install --HEAD cmigemo-mk
   - brew list --versions
+  - brew install --HEAD -vd macvim-kaoriya
+  - brew uninstall macvim-kaoriya
   - brew install --HEAD -vd macvim-kaoriya --with-binary-release
   - brew uninstall cmigemo-mk
   - brew uninstall universal-ctags
