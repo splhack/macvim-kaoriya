@@ -6,15 +6,15 @@
     <description>MacVim-KaoriYa 7.4</description>
 
     <item>
-      <title>MacVim-KaoriYa 7.4 (20160114)</title>
+      <title>MacVim-KaoriYa 7.4 (20160117)</title>
       <description><![CDATA[
 <pre>
 ■対応OS Xバージョン
 ・10.9/10.10/10.11対応
 
 ■ベースバージョン
-・Vim 7.4.1090
-・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-91
+・Vim 7.4.1129
+・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-93
 ・香り屋パッチ 20160101版 http://www.kaoriya.net/software/vim/
 
 ■スクリプトインターフェース互換バージョン
@@ -26,14 +26,14 @@
 
 </pre>
       ]]></description>
-      <pubDate>Thu, 14 Jan 2016 22:00:00 -0800</pubDate>
+      <pubDate>Mon, 18 Jan 2016 00:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20160114/MacVim-KaoriYa-20160114.dmg"
-        length="13951517"
-        sparkle:version="20160114"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20160117/MacVim-KaoriYa-20160117.dmg"
+        length="14270175"
+        sparkle:version="20160117"
         sparkle:shortVersionString="7.4"
-	sparkle:dsaSignature="MCwCFA5S0zmYc9L3QqeJAhfzBYjAtxASAhRRFjmH++CVUSVTQjpCUQ6jsxiEuw=="
+	sparkle:dsaSignature="MCwCFDzAaG1UY1Vj1VueFrNls2q87rgLAhRBl05/CRLk2S/NBXNYkcBXFax2ng=="
         />
     </item>
   </channel>
