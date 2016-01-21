@@ -32,6 +32,15 @@ before_deploy:
   - brew install --HEAD -vd macvim-kaoriya
   - brew uninstall macvim-kaoriya
   - brew install --HEAD -vd macvim-kaoriya --with-binary-release
+  - rm -f result; $VIM -g -c "redir>result" -c version -c "redir END" -c q; sleep 1; cat result; grep -q -w "MacVim GUI" result
+  - rm -f result; $VIM -g -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.1.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.2.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "perl VIM::Msg(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "py print(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "py3 print(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "ruby puts(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "set rubydll=/usr/lib/libruby.dylib" -c "ruby puts(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "set rubydll=/usr/local/lib/libruby.dylib" -c "ruby puts(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
   - brew uninstall cmigemo-mk
   - brew uninstall universal-ctags
   - brew uninstall gettext
@@ -40,10 +49,10 @@ before_deploy:
   - brew uninstall luajit
   - brew uninstall lua
   - brew uninstall lua51
-  - $VIM -c lua 'print(\"MacVim\")' -c q|grep -q -w MacVim
-  - $VIM -c perl 'VIM::Msg(\"MacVim\")' -c q|grep -q -w MacVim
-  - $VIM -c py 'print(\"MacVim\")' -c q|grep -q -w MacVim
-  - $VIM -c ruby 'puts(\"MacVim\")' -c q|grep -q -w MacVim
+  - rm -f result; $VIM -g -c "redir>result" -c "lua print(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "perl VIM::Msg(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "py print(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIM -g -c "redir>result" -c "ruby puts(\"Test\")" -c "redir END" -c q; sleep 1; cat result; echo; grep -q -w Test result
   - git clone --depth=1 --branch=master https://github.com/splhack/macvim.git macvim-git
   - mkdir -p MacVim-KaoriYa/KaoriYa
   - cp macvim-git/README.txt MacVim-KaoriYa
