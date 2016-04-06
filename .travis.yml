@@ -29,8 +29,6 @@ before_deploy:
   - brew tap splhack/splhack
   - brew install --HEAD cmigemo-mk
   - brew list --versions
-  - brew install --HEAD -vd macvim-kaoriya
-  - brew uninstall macvim-kaoriya
   - brew install --HEAD -vd macvim-kaoriya --with-binary-release
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.1.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.2.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
