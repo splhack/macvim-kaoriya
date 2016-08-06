@@ -11,7 +11,7 @@ compiler:
 sudo: false
 
 env:
-  - VIMCMD=/usr/local/Cellar/macvim-kaoriya/HEAD/MacVim.app/Contents/MacOS/Vim
+  - VIMCMD=/usr/local/Cellar/macvim-kaoriya/HEAD-*/MacVim.app/Contents/MacOS/Vim
 
 script:
   - true
