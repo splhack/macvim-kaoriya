@@ -3,7 +3,7 @@ language: c
 os:
   - osx
 
-osx_image: xcode7.3
+osx_image: xcode8
 
 compiler:
   - clang
@@ -56,7 +56,7 @@ before_deploy:
   - mkdir -p MacVim-KaoriYa/KaoriYa
   - cp macvim-git/README.txt MacVim-KaoriYa
   - cp macvim-git/README_KaoriYa.txt MacVim-KaoriYa/KaoriYa
-  - cp macvim-git/CHANGES_KaoriYa.txt MacVim-KaoriYa/KaoriYa
+  - cp macvim-git/CHANGES_KaoriYa.md MacVim-KaoriYa/KaoriYa
   - cp -r macvim-git/src/MacVim/deploy/readme.rtfd MacVim-KaoriYa/はじめにお読みください.rtfd
   - tar -C /usr/local/Cellar/macvim-kaoriya/HEAD-* -cf - MacVim.app|tar -C MacVim-KaoriYa -xf -
   - macvim-git/src/create-dmg/create-dmg --volname "MacVim-KaoriYa $TRAVIS_TAG" --volicon macvim-git/src/MacVim/icons/MacVim.icns --background macvim-git/src/MacVim/deploy/background.png --window-size 500 500 --icon-size 96 --text-size 13 --icon KaoriYa 322 384 --icon MacVim.app 116 208 --icon README.txt 178 384 --icon はじめにお読みください.rtfd 240 86 --hide-extension はじめにお読みください.rtfd --app-drop-link 384 208 MacVim-KaoriYa-$TRAVIS_TAG.dmg MacVim-KaoriYa
