@@ -6,15 +6,16 @@
     <description>MacVim-KaoriYa</description>
 
     <item>
-      <title>MacVim-KaoriYa (20161117)</title>
+      <title>MacVim-KaoriYa (20161120)</title>
       <description><![CDATA[
 <pre>
 ■対応OS Xバージョン
 ・10.9+
 
 ■ベースバージョン
-・Vim 8.0.0092
-・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-115
+・Vim 8.0.0094
+・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-116
+  ・10.12での非OS標準フルスクリーンの不具合修正
 ・香り屋パッチ 20161113版 http://www.kaoriya.net/software/vim/
 
 ■スクリプトインターフェース互換バージョン
@@ -26,14 +27,14 @@
 
 </pre>
       ]]></description>
-      <pubDate>Fri, 18 Nov 2016 05:00:00 -0800</pubDate>
+      <pubDate>Sun, 20 Nov 2016 01:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20161117/MacVim-KaoriYa-20161117.dmg"
-        length="14605395"
-        sparkle:version="20161117"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20161120/MacVim-KaoriYa-20161120.dmg"
+        length="14606352"
+        sparkle:version="20161120"
         sparkle:shortVersionString="8.0"
-	sparkle:dsaSignature="MC0CFQCGUXJ1DLzxcQBjxm+QKaix+wxPpAIUBID7OEtgm919BZdlwRSAhIWf9vs="
+	sparkle:dsaSignature="MCwCFEpocgaOKmyZdGcJLRQo7nsTzqLqAhRiXYsMk/BD7LpzqsUVw17Hgb9Nwg=="
         />
     </item>
   </channel>
