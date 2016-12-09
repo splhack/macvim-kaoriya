@@ -6,19 +6,16 @@
     <description>MacVim-KaoriYa</description>
 
     <item>
-      <title>MacVim-KaoriYa (20161203)</title>
+      <title>MacVim-KaoriYa (20161209)</title>
       <description><![CDATA[
 <pre>
 ■対応OS Xバージョン
 ・10.9+
 
 ■ベースバージョン
-・Vim 8.0.0123
-・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-117
-  ・タイマーコールバックのfeedkeys不具合修正
-  ・自動的にPythonを設定
-    ・Python 2.7.x: Homebrew python2 か System
-    ・Python 3.5.2 or later: Homebrew python3 か python.orgバイナリ
+・Vim 8.0.0124
+・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-119
+  ・Python.org 3.5.2バイナリでクラッシュする不具合を修正
 ・香り屋パッチ 20161113版 http://www.kaoriya.net/software/vim/
 
 ■スクリプトインターフェース互換バージョン
@@ -30,14 +27,14 @@
 
 </pre>
       ]]></description>
-      <pubDate>Sat, 03 Dec 2016 21:00:00 -0800</pubDate>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 -0800</pubDate>
       <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20161203/MacVim-KaoriYa-20161203.dmg"
-        length="14616173"
-        sparkle:version="20161203"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20161209/MacVim-KaoriYa-20161209.dmg"
+        length="14617086"
+        sparkle:version="20161209"
         sparkle:shortVersionString="8.0"
-	sparkle:dsaSignature="MC0CFD/kCi+ZOQPi/aBRGLq3ExFcdjbxAhUAhlxE30i2fwTf45RBNodQjHgRCqQ="
+	sparkle:dsaSignature="MCwCFD8wAAbJpHme7hCKYTTqhtRmuMxwAhQTsa+oydyDKR5K4JAioCerBCJNrQ=="
         />
     </item>
   </channel>
