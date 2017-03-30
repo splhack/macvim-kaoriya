@@ -6,36 +6,37 @@
     <description>MacVim-KaoriYa</description>
 
     <item>
-      <title>MacVim-KaoriYa (20170322)</title>
+      <title>MacVim-KaoriYa (20170330)</title>
       <description><![CDATA[
 <pre>
-■mvimなどのスクリプトディレクトリを MacVim.app/Contents/bin に変更
+■Python互換バージョンを3.6.1に更新
+■columnspace対応(:help columnspace)
 
 ■対応OS Xバージョン
 ・10.9+
 
 ■ベースバージョン
-・Vim 8.0.0502
-・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-129
+・Vim 8.0.0525
+・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-130
 ・香り屋パッチ 20170101版 http://www.kaoriya.net/software/vim/
 
 ■スクリプトインターフェース互換バージョン
 ・Lua: 5.1、5.2、LuaJIT 2.0.3(内蔵)
 ・Perl: 5.16(OS X標準)
-・Python3: 3.6
+・Python3: 3.6.1
 ・Python: 2.7(OS X標準)
 ・Ruby: 2.0(OS X標準)、2.4
 
 </pre>
       ]]></description>
-      <pubDate>Wed, 22 Mar 2017 21:00:00 -0700</pubDate>
+      <pubDate>Thu, 30 Mar 2017 16:00:00 -0700</pubDate>
       <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20170322/MacVim-KaoriYa-20170322.dmg"
-        length="14660885"
-        sparkle:version="20170322"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20170330/MacVim-KaoriYa-20170330.dmg"
+        length="14663285"
+        sparkle:version="20170330"
         sparkle:shortVersionString="8.0"
-	sparkle:dsaSignature="MCwCFEg1udDaty9CmgmLbNDnWnyAMmhWAhRVg2AM7uqnWD7CfMR4gSWiUsJ8KA=="
+	sparkle:dsaSignature="MCwCFH85haRPFJdI8pUCpn7DPGFbyJs7AhQMuXyJ8RLmWa6ngKEVH4ckMpBonQ=="
         />
     </item>
   </channel>
