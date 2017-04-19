@@ -42,7 +42,6 @@ before_deploy:
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set rubydll=/usr/local/lib/libruby.dylib" -c "ruby puts(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - brew uninstall cmigemo-mk
   - brew uninstall universal-ctags
-  - brew uninstall gettext
   - brew uninstall ruby
   - brew uninstall python3
   - brew uninstall luajit
