@@ -18,8 +18,8 @@ script:
 
 before_deploy:
   - brew update || brew update
-  - brew install lua51
   - brew install lua
+  - brew install lua@5.1
   - brew install luajit
   - brew install python3
   - brew install ruby
@@ -32,7 +32,7 @@ before_deploy:
   - brew install --HEAD -vd macvim-kaoriya
   - brew uninstall macvim-kaoriya
   - brew install --HEAD -vd macvim-kaoriya --with-binary-release
-  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/Cellar/lua@5.1/5.1.5_4/lib/liblua.5.1.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.1.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.2.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "perl VIM::Msg(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py import sys; print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
@@ -45,8 +45,8 @@ before_deploy:
   - brew uninstall ruby
   - brew uninstall python3
   - brew uninstall luajit
+  - brew uninstall lua@5.1
   - brew uninstall lua
-  - brew uninstall lua51
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "perl VIM::Msg(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
