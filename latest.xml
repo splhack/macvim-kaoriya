@@ -6,15 +6,15 @@
     <description>MacVim-KaoriYa</description>
 
     <item>
-      <title>MacVim-KaoriYa (20170807)</title>
+      <title>MacVim-KaoriYa (20170912)</title>
       <description><![CDATA[
 <pre>
 ■対応OS Xバージョン
 ・10.9+
 
 ■ベースバージョン
-・Vim 8.0.0891
-・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-136
+・Vim 8.0.1098
+・MacVim https://github.com/macvim-dev/macvim/releases/tag/snapshot-137
 ・香り屋パッチ 20170101版 http://www.kaoriya.net/software/vim/
 
 ■スクリプトインターフェース互換バージョン
@@ -26,14 +26,14 @@
 
 </pre>
       ]]></description>
-      <pubDate>Mon, 07 Aug 2017 20:00:00 -0700</pubDate>
+      <pubDate>Tue, 12 Sep 2017 22:00:00 -0700</pubDate>
       <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
       <enclosure type="application/octet-stream"
-        url="https://github.com/splhack/macvim-kaoriya/releases/download/20170807/MacVim-KaoriYa-20170807.dmg"
-        length="14951521"
-        sparkle:version="20170807"
+        url="https://github.com/splhack/macvim-kaoriya/releases/download/20170912/MacVim-KaoriYa-20170912.dmg"
+        length="14993362"
+        sparkle:version="20170912"
         sparkle:shortVersionString="8.0"
-	sparkle:dsaSignature="MCwCFEMW+ozIf00uJjB6k9LATAL9EgXMAhQ80RQV2YRBms3ROHoA1UIAIx2OLw=="
+	sparkle:dsaSignature="MCwCFCMPgR2KB0xwlDZ+ane1UpYpzoYUAhQEIgjzatlC+WkPv/SWYZeUs+j3dQ=="
         />
     </item>
   </channel>
