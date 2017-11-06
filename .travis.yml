@@ -38,8 +38,6 @@ before_deploy:
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py import sys; print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py3 import sys; print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "ruby puts(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
-  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set rubydll=/usr/lib/libruby.dylib" -c "ruby puts(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
-  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set rubydll=/usr/local/lib/libruby.dylib" -c "ruby puts(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - brew uninstall cmigemo-mk
   - brew uninstall universal-ctags
   - brew uninstall ruby
@@ -50,7 +48,6 @@ before_deploy:
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "perl VIM::Msg(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
-  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "ruby puts(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - git clone --depth=1 --branch=master https://github.com/splhack/macvim.git macvim-git
   - mkdir -p MacVim-KaoriYa/KaoriYa
   - cp macvim-git/README.txt MacVim-KaoriYa
