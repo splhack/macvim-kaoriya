@@ -33,7 +33,7 @@ before_deploy:
   - brew uninstall macvim-kaoriya
   - brew install --HEAD -vd macvim-kaoriya --with-binary-release
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.1.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
-  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.2.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
+  - rm -f result; $VIMCMD -g -f -c "redir>result" -c "set luadll=/usr/local/lib/liblua.5.3.dylib" -c "lua print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "perl VIM::Msg(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py import sys; print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
   - rm -f result; $VIMCMD -g -f -c "redir>result" -c "py3 import sys; print(\"Test\")" -c "redir END" -c q; cat result; echo; grep -q -w Test result
