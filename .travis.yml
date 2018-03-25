@@ -41,7 +41,6 @@ before_deploy:
   - brew uninstall cmigemo-mk
   - brew uninstall universal-ctags
   - brew uninstall ruby
-  - brew uninstall python
   - brew uninstall luajit
   - brew uninstall lua@5.1
   - brew uninstall lua
